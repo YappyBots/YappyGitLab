@@ -1,0 +1,6 @@
+dir: lib
+
+packageJson: package.json
+
+articles:
+  - Overview: README.md
