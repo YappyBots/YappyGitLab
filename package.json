@@ -1,5 +1,5 @@
 {
-  "name": "DiscordBot-YappyGitoab",
+  "name": "DiscordBot-YappyGitlab",
   "version": "1.0.0",
   "description": "A Gitlab repo monitor bot for Discord",
   "main": "lib/index.js",
