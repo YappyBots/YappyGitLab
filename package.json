@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node lib/index.js",
     "lint": "eslint .",
-    "docs": "jsdoc -c .jsdoc.json"
+    "docs": "jsdoc -c .jsdoc.json",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "url": "https://github.com/datitisev/DiscordBot-Yappy",
@@ -27,12 +29,14 @@
     "node-gitlab": "^1.6.0",
     "performance-now": "^2.0.0",
     "uws": "^0.12.0",
-    "winston": "^2.3.1"
+    "winston": "^2.3.1",
+    "snyk": "^1.25.2"
   },
   "devDependencies": {
     "eslint": "^3.15.0",
     "ink-docstrap": "^1.3.0",
     "jsdoc": "^3.4.3",
     "jsdoc-strip-async-await": "^0.1.0"
-  }
+  },
+  "snyk": true
 }
