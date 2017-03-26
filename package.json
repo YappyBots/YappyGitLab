@@ -18,17 +18,17 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.1",
+    "bufferutil": "^3.0.0",
     "bugsnag": "^1.9.0",
     "chalk": "^1.1.3",
-    "discord.js": "^11.0.0",
-    "erlpack": "^0.1.2",
+    "discord.js": "hydrabolt/discord.js",
+    "erlpack": "hammerandchisel/erlpack",
     "express": "^4.15.2",
     "moment": "^2.18.1",
     "moment-duration-format": "^1.3.0",
     "mongoose": "^4.9.1",
     "node-gitlab": "^1.6.0",
     "snyk": "^1.25.2",
-    "uws": "^0.14.0",
     "winston": "^2.3.1"
   },
   "devDependencies": {
