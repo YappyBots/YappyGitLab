@@ -22,7 +22,7 @@
     "encoding": "utf8",
     "private": true,
     "recurse": true,
-    "template": "./node_modules/ink-docstrap/template"
+    "template": "node_modules/postman-jsdoc-theme"
   },
   "templates": {
     "systemName"            : "Yappy, the Gitlab Monitor",
