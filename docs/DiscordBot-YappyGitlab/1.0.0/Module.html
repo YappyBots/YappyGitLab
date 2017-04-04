@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Yappy, the Gitlab Monitor Class: Util</title>
+	<title>Yappy, the Gitlab Monitor Class: Module</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -72,16 +72,16 @@
 		<div id="main">
 			
 
-	<h1 class="page-title">Class: Util</h1>
+	<h1 class="page-title">Class: Module</h1>
 <section>
 
 <header>
     
         <h2>
-        Util
+        Module
         </h2>
         
-            <div class="class-description"><p>Some utilities :)</p></div>
+            <div class="class-description"><p>Discord bot middleware, or module</p></div>
         
     
 </header>
@@ -93,118 +93,12 @@
         
 <hr>
 <dt>
-    <h4 class="name" id="Util"><span class="type-signature"></span>new Util()</h4>
+    <h4 class="name" id="Module"><span class="type-signature"></span>new Module(bot)</h4>
     
     
 </dt>
 <dd>
 
-    
-
-    
-
-    
-
-    
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
-	<dd class="tag-source">
-		<ul class="dummy">
-			<li>
-				<a href="Util_index.js.html">Util/index.js</a>,
-				 <a href="Util_index.js.html#sunlight-1-line-7">line 7</a>
-			</li>
-		</ul>
-	</dd>
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dd>
-
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <h3 class="subsection-title">Methods</h3>
-
-        <dl>
-            
-<hr>
-<dt>
-    <h4 class="name" id="MergeDefault"><span class="type-signature"></span>MergeDefault(def, given)</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Merge an object with a defaults object</p>
-    </div>
     
 
     
@@ -238,13 +132,13 @@
 
         <tr>
             
-                <td class="name"><code>def</code></td>
+                <td class="name"><code>bot</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">Object</span>
+<span class="param-type">Client</span>
 
 
 
@@ -255,31 +149,7 @@
 
             
 
-            <td class="description last"><p>Default</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>given</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Object</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Object given to merge with default</p></td>
+            <td class="description last"><p>discord bot</p></td>
         </tr>
 
     
@@ -323,8 +193,350 @@
 	<dd class="tag-source">
 		<ul class="dummy">
 			<li>
-				<a href="Util_index.js.html">Util/index.js</a>,
-				 <a href="Util_index.js.html#sunlight-1-line-23">line 23</a>
+				<a href="Discord_Module.js.html">Discord/Module.js</a>,
+				 <a href="Discord_Module.js.html#sunlight-1-line-6">line 6</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Members</h3>
+
+        <dl>
+            
+<hr>
+<dt class="name" id="priority">
+    <h4 id="priority"><span class="type-signature"></span>priority<span class="type-signature"></span></h4>
+
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Middleware's priority</p>
+    </div>
+    
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="Discord_Module.js.html">Discord/Module.js</a>,
+				 <a href="Discord_Module.js.html#sunlight-1-line-20">line 20</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+</dd>
+
+        </dl>
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        <dl>
+            
+<hr>
+<dt>
+    <h4 class="name" id="init"><span class="type-signature"></span>init()</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Init module</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="Discord_Module.js.html">Discord/Module.js</a>,
+				 <a href="Discord_Module.js.html#sunlight-1-line-27">line 27</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="moduleError"><span class="type-signature"></span>moduleError(msg, str)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Function to shorten sending error messages</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>msg</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Message</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>message sent by user (for channel)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>error message to send user</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="Discord_Module.js.html">Discord/Module.js</a>,
+				 <a href="Discord_Module.js.html#sunlight-1-line-47">line 47</a>
 			</li>
 		</ul>
 	</dd>
@@ -352,10 +564,6 @@
     <h5>Returns:</h5>
     
             
-<div class="param-desc">
-    <p>Merged object</p>
-</div>
-
 
 
 <dl>
@@ -364,7 +572,7 @@
     </dt>
     <dd>
         
-<span class="param-type">Object</span>
+<span class="param-type">Promise.&lt;Message></span>
 
 
 
@@ -381,7 +589,7 @@
             
 <hr>
 <dt>
-    <h4 class="name" id="Pad"><span class="type-signature"></span>Pad(string, length)</h4>
+    <h4 class="name" id="run"><span class="type-signature"></span>run(msg, args, next)</h4>
     
     
 </dt>
@@ -389,7 +597,7 @@
 
     
     <div class="description">
-        <p>Add padding to the right of a string</p>
+        <p>Bot's message middleware function</p>
     </div>
     
 
@@ -424,13 +632,13 @@
 
         <tr>
             
-                <td class="name"><code>string</code></td>
+                <td class="name"><code>msg</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type">Message</span>
 
 
 
@@ -441,20 +649,20 @@
 
             
 
-            <td class="description last"><p>The string to pad</p></td>
+            <td class="description last"><p>the message</p></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>length</code></td>
+                <td class="name"><code>args</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">Integer</span>
+<span class="param-type">Array.&lt;string></span>
 
 
 
@@ -465,7 +673,31 @@
 
             
 
-            <td class="description last"><p>Length of final string</p></td>
+            <td class="description last"><p>message split by spaces</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>next</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>next middleware pls &lt;3</p></td>
         </tr>
 
     
@@ -509,8 +741,245 @@
 	<dd class="tag-source">
 		<ul class="dummy">
 			<li>
-				<a href="Util_index.js.html">Util/index.js</a>,
-				 <a href="Util_index.js.html#sunlight-1-line-14">line 14</a>
+				<a href="Discord_Module.js.html">Discord/Module.js</a>,
+				 <a href="Discord_Module.js.html#sunlight-1-line-37">line 37</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="textToEmbed"><span class="type-signature"></span>textToEmbed( [title], text [, color])</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Convert normal text to an embed object</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Argument</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>title</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    'Auto Generated Response'
+                
+                </td>
+            
+
+            <td class="description last"><p>embed title</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>text</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+|
+
+<span class="param-type">Array.&lt;string></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>embed description, joined with newline if array</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>color</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">color</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    '#84F139'
+                
+                </td>
+            
+
+            <td class="description last"><p>embed color</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="Discord_Module.js.html">Discord/Module.js</a>,
+				 <a href="Discord_Module.js.html#sunlight-1-line-58">line 58</a>
 			</li>
 		</ul>
 	</dd>
@@ -538,10 +1007,6 @@
     <h5>Returns:</h5>
     
             
-<div class="param-desc">
-    <p>The string with padding on the right</p>
-</div>
-
 
 
 <dl>
@@ -550,7 +1015,7 @@
     </dt>
     <dd>
         
-<span class="param-type">String</span>
+<span class="param-type">RichEmbed</span>
 
 
 

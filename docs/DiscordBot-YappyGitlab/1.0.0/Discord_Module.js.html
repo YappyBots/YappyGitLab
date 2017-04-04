@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Yappy, the Gitlab Monitor Class: Util</title>
+	<title>Yappy, the Gitlab Monitor Source: Discord/Module.js</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -67,511 +67,89 @@
 <div class="row">
 
 	
-	<div class="col-md-8">
+	<div class="col-md-12">
 	
 		<div id="main">
 			
 
-	<h1 class="page-title">Class: Util</h1>
+		<h1 class="page-title">Source: Discord/Module.js</h1>
+    
 <section>
-
-<header>
-    
-        <h2>
-        Util
-        </h2>
-        
-            <div class="class-description"><p>Some utilities :)</p></div>
-        
-    
-</header>
-
-
-<article>
-    <div class="container-overview">
-    
-        
-<hr>
-<dt>
-    <h4 class="name" id="Util"><span class="type-signature"></span>new Util()</h4>
-    
-    
-</dt>
-<dd>
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
-	<dd class="tag-source">
-		<ul class="dummy">
-			<li>
-				<a href="Util_index.js.html">Util/index.js</a>,
-				 <a href="Util_index.js.html#sunlight-1-line-7">line 7</a>
-			</li>
-		</ul>
-	</dd>
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dd>
-
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <h3 class="subsection-title">Methods</h3>
-
-        <dl>
-            
-<hr>
-<dt>
-    <h4 class="name" id="MergeDefault"><span class="type-signature"></span>MergeDefault(def, given)</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Merge an object with a defaults object</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-        <h5>Parameters:</h5>
-        
-
-<table class="params table table-striped">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>def</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Object</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Default</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>given</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Object</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Object given to merge with default</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
-	<dd class="tag-source">
-		<ul class="dummy">
-			<li>
-				<a href="Util_index.js.html">Util/index.js</a>,
-				 <a href="Util_index.js.html#sunlight-1-line-23">line 23</a>
-			</li>
-		</ul>
-	</dd>
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <h5>Returns:</h5>
-    
-            
-<div class="param-desc">
-    <p>Merged object</p>
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Object</span>
-
-
-
-    </dd>
-</dl>
-
-
-        
-
-    
-</dd>
-
-        
-            
-<hr>
-<dt>
-    <h4 class="name" id="Pad"><span class="type-signature"></span>Pad(string, length)</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Add padding to the right of a string</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-        <h5>Parameters:</h5>
-        
-
-<table class="params table table-striped">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>string</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">String</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>The string to pad</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>length</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Integer</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Length of final string</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
-	<dd class="tag-source">
-		<ul class="dummy">
-			<li>
-				<a href="Util_index.js.html">Util/index.js</a>,
-				 <a href="Util_index.js.html#sunlight-1-line-14">line 14</a>
-			</li>
-		</ul>
-	</dd>
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <h5>Returns:</h5>
-    
-            
-<div class="param-desc">
-    <p>The string with padding on the right</p>
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">String</span>
-
-
-
-    </dd>
-</dl>
-
-
-        
-
-    
-</dd>
-
-        </dl>
-    
-
-    
-
-    
-</article>
-
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">const Discord = require('discord.js');
+
+/**
+ * Discord bot middleware, or module
+ */
+class Module {
+  /**
+   * @param {Client} bot - discord bot
+   */
+  constructor(bot) {
+    this.bot = bot;
+    this._path = Log._path;
+    this.embed = Discord.RichEmbed;
+  }
+
+  /**
+   * Middleware's priority
+   * @return {number} priority
+   */
+  get priority() {
+    return 0;
+  }
+
+  /**
+   * Init module
+   */
+  init() {
+    // eslint pls
+  }
+
+  /**
+   * Bot's message middleware function
+   * @param {Message} msg - the message
+   * @param {string[]} args - message split by spaces
+   * @param {function} next - next middleware pls &lt;3
+   */
+  run() {
+    throw new Error(`No middleware method was set up in module ${this.constructor.name}`);
+  }
+
+  /**
+   * Function to shorten sending error messages
+   * @param {Message} msg - message sent by user (for channel)
+   * @param {string} str - error message to send user
+   * @return {Promise&lt;Message>}
+   */
+  moduleError(msg, str) {
+    return msg.channel.sendMessage(`❌ ${str}`);
+  }
+
+  /**
+   * Convert normal text to an embed object
+   * @param {string} [title = 'Auto Generated Response'] - embed title
+   * @param {string|string[]} text - embed description, joined with newline if array
+   * @param {color} [color = '#84F139'] - embed color
+   * @return {RichEmbed}
+   */
+  textToEmbed(title = 'Auto Generated Response', text, color = '#84F139') {
+    if (Array.isArray(text)) text = text.join('\n');
+    return new this.embed()
+    .setColor(color)
+    .setTitle(title)
+    .setDescription(text)
+    .setFooter(this.bot.user.username, this.bot.user.avatarURL);
+  }
+}
+
+
+module.exports = Module;
+</pre>
+    </article>
 </section>
+
 
 
 
@@ -581,10 +159,6 @@
 
 	<div class="clearfix"></div>
 
-	
-		<div class="col-md-3">
-			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
-		</div>
 	
 
 </div>
