@@ -22,21 +22,12 @@
     "encoding": "utf8",
     "private": true,
     "recurse": true,
-    "template": "node_modules/postman-jsdoc-theme"
+    "template": "./node_modules/minami"
   },
   "templates": {
-    "systemName"            : "Yappy, the Gitlab Monitor",
-    "copyright"             :  "© 2016 All Rights Reserved",
-    "includeDate"           : "true",
-    "navType"               : "inline",
-    "theme"                 : "lumen",
-    "linenums"              : true,
-    "collapseSymbols"       : true,
-    "inverseNav"            : false,
-    "outputSourceFiles"     : true,
-    "outputSourcePath"      : true,
-    "syntaxTheme"           : "default",
-    "sort"                  : "longname, version, string",
-    "search"                : true
-}
+    "cleverLinks": false,
+    "monospaceLinks": true,
+    "events": true,
+    "useHomeLink": true
+  }
 }
