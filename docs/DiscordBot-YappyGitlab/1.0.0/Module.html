@@ -9,12 +9,6 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
@@ -28,161 +22,62 @@
 
 <label for="nav-trigger" class="overlay"></label>
 
-<nav class="nav">
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a><ul class='methods'><li data-type='method'><a href="ChannelConfig.html#DeleteChannel">DeleteChannel</a></li><li data-type='method'><a href="ChannelConfig.html#DeleteRepo">DeleteRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindByChannel">FindByChannel</a></li><li data-type='method'><a href="ChannelConfig.html#FindByRepo">FindByRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindRepoInChannel">FindRepoInChannel</a></li><li data-type='method'><a href="ChannelConfig.html#SetChannel">SetChannel</a></li><li data-type='method'><a href="ChannelConfig.html#setup">setup</a></li></ul></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a><ul class='methods'><li data-type='method'><a href="ChannelConfigItem.html#deleteRepo">deleteRepo</a></li><li data-type='method'><a href="ChannelConfigItem.html#set">set</a></li></ul></li><li><a href="Command.html">Command</a><ul class='methods'><li data-type='method'><a href="Command.html#commandError">commandError</a></li><li data-type='method'><a href="Command.html#errorUsage">errorUsage</a></li><li data-type='method'><a href="Command.html#run">run</a></li><li data-type='method'><a href="Command.html#setConf">setConf</a></li><li data-type='method'><a href="Command.html#setHelp">setHelp</a></li></ul></li><li><a href="Gitlab.html">Gitlab</a><ul class='methods'><li data-type='method'><a href="Gitlab.html#getRepo">getRepo</a></li></ul></li><li><a href="Module.html">Module</a><ul class='methods'><li data-type='method'><a href="Module.html#init">init</a></li><li data-type='method'><a href="Module.html#moduleError">moduleError</a></li><li data-type='method'><a href="Module.html#run">run</a></li><li data-type='method'><a href="Module.html#textToEmbed">textToEmbed</a></li></ul></li><li><a href="Util.html">Util</a><ul class='methods'><li data-type='method'><a href="Util.html#MergeDefault">MergeDefault</a></li><li data-type='method'><a href="Util.html#Pad">Pad</a></li></ul></li></ul>
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a></li><li><a href="Client.html">Client</a></li><li><a href="Command.html">Command</a></li><li><a href="Gitlab.html">Gitlab</a></li><li><a href="Module.html">Module</a></li><li><a href="Util.html">Util</a></li></ul><h3>TypeDefs</h3><ul><li><a href="global.html#ChannelConfigSchema">ChannelConfigSchema</a></li><li><a href="global.html#ClientOptions">ClientOptions</a></li><li><a href="global.html#CommandConfig">CommandConfig</a></li><li><a href="global.html#CommandHelp">CommandHelp</a></li></ul><h3>Externals</h3><ul><li><a href="external-Channel.html">Channel</a></li><li><a href="external-Client.html">Client</a></li><li><a href="external-ClientOptions.html">ClientOptions</a></li><li><a href="external-Collection.html">Collection</a></li><li><a href="external-ColorResolvable.html">ColorResolvable</a></li><li><a href="external-Message.html">Message</a></li><li><a href="external-RichEmbed.html">RichEmbed</a></li></ul>
 </nav>
 
 <div id="main">
     
-    <h1 class="page-title">Module</h1>
+
     
-
-    <!--container.tmpl-->
-
 
 
 
 
 <section>
 
-
-
-<header data-tmpl="container.tmpl">
+<header>
+	
     
         <h2>
         Module
         </h2>
         
-            <div class="lead"><p>Discord bot middleware, or module</p></div>
+            <div class="class-description"><p>Discord bot middleware, or module</p></div>
         
     
-
-    
-      <div class="bs-callout bs-callout-default">
-        <h5>Members</h5>
-        <br />
-        <dl class="dl-horizontal methods-members">
-        <dt>Fields &amp; Properties</dt><dd><ul>
-            <li><a href="#priority">priority</a></li>
-            </ul></dd><dt>Methods</dt><dd><ul>
-            <li><a href="#init">init</a></li>
-            
-            <li><a href="#moduleError">moduleError</a></li>
-            
-            <li><a href="#run">run</a></li>
-            
-            <li><a href="#textToEmbed">textToEmbed</a></li>
-            </ul></dd></dl></div>
 </header>
 
 <article>
     <div class="container-overview">
     
-        <!--method.tmpl-->
-<div class="method-details">
-
-
-
-
+        
 
     
-    <h3 class="constructor">Constructor</h3>
-    
-
-    
-      <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Module.js.html">Module.js</a>:<a href="Discord_Module.js.html#line6">6</a>
-  </code>
-</div>
-
+    <h2>Constructor</h2>
     
 
     <h4 class="name" id="Module">
-      <a href="#params-Module"><span class="type-signature"></span>new Module</a><span class="signature">(bot)</span><span class="type-signature"></span>
-
-    </h4>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="collapse_" id="methodCollapse-Module">
-
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
+		<span class="type-signature"></span>new <a href='#Module' style='color: black'>Module</a><span class="signature">(<span class="param-types">bot: <a href="Client.html">Client</a></span>)</span><span class="type-signature"></span>
+	</h4>
 
     
 
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-Module" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -210,7 +105,8 @@
             <td class="type">
             
                 
-<span class="param-type">Client</span>
+<span class="param-type"><dd><a href="Client.html">Client</a></dd></span>
+
 
 
             
@@ -227,7 +123,50 @@
     </tbody>
 </table>
 
-  </div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Module.js.html">Discord/Module.js</a>, <a href="Discord_Module.js.html#line6">line 6</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -243,21 +182,12 @@
 
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n * Discord bot middleware, or module\n */","meta":{"range":[85,1610],"filename":"Module.js","lineno":6,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100005514","name":"Module","type":"ClassDeclaration","paramnames":["bot"]},"shortpath":"Discord/Module.js"},"classdesc":"<p>Discord bot middleware, or module</p>","name":"Module","longname":"Module","kind":"class","scope":"global","params":[{"type":{"names":["Client"]},"description":"<p>discord bot</p>","name":"bot"}],"___id":"T000003R000006","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"Module","signature":"<span class=\"signature\">(bot)</span><span class=\"type-signature\"></span>","ancestors":[]}
-</pre>
--->
 </div>
 
     
     </div>
+
+    
 
     
 
@@ -270,31 +200,13 @@
     
 
     
-        <h3 class="subsection-title">Members</h3>
+        <h3 class="subsection-title">Properties</h3>
 
         
-            <!--members.tmpl-->
-<div class="member-details">
+            
+<h4 class="name" id="priority">.<a href='#priority' style='color: black'>priority</a><span class="type-signature"></span></h4>
 
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Module.js.html">Module.js</a>:<a href="Discord_Module.js.html#line20">20</a>
-  </code>
-</div>
-
-
-
-<h4 class="name" id="priority">
-  <span class="type-signature"></span>priority<span class="type-signature"></span>
-</h4>
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 
 
@@ -303,18 +215,12 @@
 </div>
 
 
-<div>
-
-<!-- details.tmpl -->
 
 
 
 
 
-
-
-
-<dl class="dl-horizontal">
+<dl class="details">
 
     
 
@@ -332,6 +238,19 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Module.js.html">Discord/Module.js</a>, <a href="Discord_Module.js.html#line20">line 20</a>
+    </li></ul></dd>
     
 
     
@@ -345,63 +264,28 @@
 
 
 
-
-
-
-
-
-
-</div>
-
 </div>
 
         
     
 
     
+	
         <h3 class="subsection-title">Methods</h3>
-
+	
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Module.js.html">Module.js</a>:<a href="Discord_Module.js.html#line27">27</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="init">
-      <a href="#params-init"><span class="type-signature"></span>init</a><span class="signature">()</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#init' style='color: black'>init</a><span class="signature">()</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Init module</p>
@@ -414,22 +298,12 @@
 
 
 
-<div class="collapse_" id="methodCollapse-init">
-
-  
-
-  
-
-<!-- details.tmpl -->
 
 
 
 
 
-
-
-
-<dl class="dl-horizontal">
+<dl class="details">
 
     
 
@@ -447,6 +321,19 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Module.js.html">Discord/Module.js</a>, <a href="Discord_Module.js.html#line27">line 27</a>
+    </li></ul></dd>
     
 
     
@@ -470,67 +357,21 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n   * Init module\n   */","meta":{"range":[400,430],"filename":"Module.js","lineno":27,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100005550","name":"Module#init","type":"MethodDefinition","paramnames":[]},"vars":{"":null},"shortpath":"Discord/Module.js"},"description":"<p>Init module</p>","name":"init","longname":"Module#init","kind":"function","memberof":"Module","scope":"instance","params":[],"___id":"T000002R000427","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"init","signature":"<span class=\"signature\">()</span><span class=\"type-signature\"></span>","ancestors":["<a href=\"Module.html\">Module</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Module.js.html">Module.js</a>:<a href="Discord_Module.js.html#line47">47</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="moduleError">
-      <a href="#params-moduleError"><span class="type-signature"></span>moduleError</a><span class="signature">(msg, str)</span><span class="type-signature"> &rarr; {Promise.&lt;Message>}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#moduleError' style='color: black'>moduleError</a><span class="signature">(<span class="param-types">msg: Message</span>, <span class="param-types">str: string</span>)</span><span class="type-signature"> &rarr; Promise&lt;Message></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Function to shorten sending error messages</p>
@@ -543,61 +384,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-moduleError">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-moduleError" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -625,7 +416,8 @@
             <td class="type">
             
                 
-<span class="param-type">Message</span>
+<span class="param-type"><dd>Message</dd></span>
+
 
 
             
@@ -648,7 +440,8 @@
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type"><dd>string</dd></span>
+
 
 
             
@@ -665,97 +458,97 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Promise.&lt;Message></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Module.js.html">Discord/Module.js</a>, <a href="Discord_Module.js.html#line47">line 47</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise&lt;Message></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n   * Function to shorten sending error messages\n   * @param {Message} msg - message sent by user (for channel)\n   * @param {string} str - error message to send user\n   * @return {Promise<Message>}\n   */","meta":{"range":[947,1022],"filename":"Module.js","lineno":47,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100005569","name":"Module#moduleError","type":"MethodDefinition","paramnames":["msg","str"]},"vars":{"":null},"shortpath":"Discord/Module.js"},"description":"<p>Function to shorten sending error messages</p>","params":[{"type":{"names":["Message"]},"description":"<p>message sent by user (for channel)</p>","name":"msg"},{"type":{"names":["string"]},"description":"<p>error message to send user</p>","name":"str"}],"returns":[{"type":{"names":["Promise.<Message>"]}}],"name":"moduleError","longname":"Module#moduleError","kind":"function","memberof":"Module","scope":"instance","___id":"T000002R000429","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"moduleError","signature":"<span class=\"signature\">(msg, str)</span><span class=\"type-signature\"> &rarr; {Promise.&lt;Message>}</span>","ancestors":["<a href=\"Module.html\">Module</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Module.js.html">Module.js</a>:<a href="Discord_Module.js.html#line37">37</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="run">
-      <a href="#params-run"><span class="type-signature"></span>run</a><span class="signature">(msg, args, next)</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#run' style='color: black'>run</a><span class="signature">(<span class="param-types">msg: Message</span>, <span class="param-types">args: string[]</span>, <span class="param-types">next: function</span>)</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Bot's message middleware function</p>
@@ -768,61 +561,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-run">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-run" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -850,7 +593,8 @@
             <td class="type">
             
                 
-<span class="param-type">Message</span>
+<span class="param-type"><dd>Message</dd></span>
+
 
 
             
@@ -873,7 +617,8 @@
             <td class="type">
             
                 
-<span class="param-type">Array.&lt;string></span>
+<span class="param-type"><dd>string[]</dd></span>
+
 
 
             
@@ -896,7 +641,8 @@
             <td class="type">
             
                 
-<span class="param-type">function</span>
+<span class="param-type"><dd>function</dd></span>
+
 
 
             
@@ -913,104 +659,16 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n   * Bot's message middleware function\n   * @param {Message} msg - the message\n   * @param {string[]} args - message split by spaces\n   * @param {function} next - next middleware pls <3\n   */","meta":{"range":[632,734],"filename":"Module.js","lineno":37,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100005554","name":"Module#run","type":"MethodDefinition","paramnames":[]},"vars":{"":null},"shortpath":"Discord/Module.js"},"description":"<p>Bot's message middleware function</p>","params":[{"type":{"names":["Message"]},"description":"<p>the message</p>","name":"msg"},{"type":{"names":["Array.<string>"]},"description":"<p>message split by spaces</p>","name":"args"},{"type":{"names":["function"]},"description":"<p>next middleware pls &lt;3</p>","name":"next"}],"name":"run","longname":"Module#run","kind":"function","memberof":"Module","scope":"instance","___id":"T000002R000428","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"run","signature":"<span class=\"signature\">(msg, args, next)</span><span class=\"type-signature\"></span>","ancestors":["<a href=\"Module.html\">Module</a>#"]}
-</pre>
--->
-</div>
-
-        
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Module.js.html">Module.js</a>:<a href="Discord_Module.js.html#line58">58</a>
-  </code>
-</div>
-
-
-
+<dl class="details">
 
     
 
     
-
-    <h4 class="name" id="textToEmbed">
-      <a href="#params-textToEmbed"><span class="type-signature"></span>textToEmbed</a><span class="signature">(title<span class="signature-attributes">opt</span>, text, color<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {RichEmbed}</span>
-
-    </h4>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="description">
-    <p>Convert normal text to an embed object</p>
-</div>
-
-
-
-
-
-
-
-
-<div class="collapse_" id="methodCollapse-textToEmbed">
-
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
 
     
 
@@ -1028,6 +686,15 @@
 
     
 
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Module.js.html">Discord/Module.js</a>, <a href="Discord_Module.js.html#line37">line 37</a>
+    </li></ul></dd>
     
 
     
@@ -1044,12 +711,45 @@
 
 
 
-  <div id="params-textToEmbed" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
 
 
-<table class="table table-bordered">
+
+
+
+
+
+</div>
+
+        
+            
+
+    
+
+    <h4 class="name" id="textToEmbed">
+		<span class="type-signature"></span>.<a href='#textToEmbed' style='color: black'>textToEmbed</a><span class="signature">(<span class="param-types">title?: string</span>, <span class="param-types">text: string</span>, <span class="param-types">color?: color</span>)</span><span class="type-signature"> &rarr; RichEmbed</span>
+	</h4>
+
+    
+
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+<div class="description">
+    <p>Convert normal text to an embed object</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
     <thead>
     <tr>
         
@@ -1081,7 +781,8 @@
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type"><dd>string</dd></span>
+
 
 
             
@@ -1102,7 +803,7 @@
             
                 <td class="default">
                 
-                    'Auto Generated Response'
+                    <code>'Auto Generated Response'</code>
                 
                 </td>
             
@@ -1120,10 +821,11 @@
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type"><dd>string</dd></span>
 |
 
-<span class="param-type">Array.&lt;string></span>
+<span class="param-type"><dd>string[]</dd></span>
+
 
 
             
@@ -1158,7 +860,8 @@
             <td class="type">
             
                 
-<span class="param-type">color</span>
+<span class="param-type"><dd>color</dd></span>
+
 
 
             
@@ -1179,7 +882,7 @@
             
                 <td class="default">
                 
-                    '#84F139'
+                    <code>'#84F139'</code>
                 
                 </td>
             
@@ -1191,59 +894,85 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">RichEmbed</span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Module.js.html">Discord/Module.js</a>, <a href="Discord_Module.js.html#line58">line 58</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>RichEmbed</dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n   * Convert normal text to an embed object\n   * @param {string} [title = 'Auto Generated Response'] - embed title\n   * @param {string|string[]} text - embed description, joined with newline if array\n   * @param {color} [color = '#84F139'] - embed color\n   * @return {RichEmbed}\n   */","meta":{"range":[1317,1608],"filename":"Module.js","lineno":58,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100005586","name":"Module#textToEmbed","type":"MethodDefinition","paramnames":["title","text","color"]},"vars":{"":null},"shortpath":"Discord/Module.js"},"description":"<p>Convert normal text to an embed object</p>","params":[{"type":{"names":["string"]},"optional":true,"defaultvalue":"'Auto Generated Response'","description":"<p>embed title</p>","name":"title"},{"type":{"names":["string","Array.<string>"]},"description":"<p>embed description, joined with newline if array</p>","name":"text"},{"type":{"names":["color"]},"optional":true,"defaultvalue":"'#84F139'","description":"<p>embed color</p>","name":"color"}],"returns":[{"type":{"names":["RichEmbed"]}}],"name":"textToEmbed","longname":"Module#textToEmbed","kind":"function","memberof":"Module","scope":"instance","___id":"T000002R000430","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"textToEmbed","signature":"<span class=\"signature\">(title<span class=\"signature-attributes\">opt</span>, text, color<span class=\"signature-attributes\">opt</span>)</span><span class=\"type-signature\"> &rarr; {RichEmbed}</span>","ancestors":["<a href=\"Module.html\">Module</a>#"]}
-</pre>
--->
 </div>
 
         
-    
-
     
 
     
@@ -1259,7 +988,9 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.3</a> on Tue Apr 04 2017 17:21:36 GMT-0400 (EDT) using the LOKE theme.
+	<div align="right">
+    	<a href="https://github.com/jsdoc3/jsdoc">JSDoc3.4.3</a> | Minami
+	</div>
 </footer>
 
 <script>prettyPrint();</script>

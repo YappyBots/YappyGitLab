@@ -9,12 +9,6 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
@@ -28,80 +22,49 @@
 
 <label for="nav-trigger" class="overlay"></label>
 
-<nav class="nav">
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a><ul class='methods'><li data-type='method'><a href="ChannelConfig.html#DeleteChannel">DeleteChannel</a></li><li data-type='method'><a href="ChannelConfig.html#DeleteRepo">DeleteRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindByChannel">FindByChannel</a></li><li data-type='method'><a href="ChannelConfig.html#FindByRepo">FindByRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindRepoInChannel">FindRepoInChannel</a></li><li data-type='method'><a href="ChannelConfig.html#SetChannel">SetChannel</a></li><li data-type='method'><a href="ChannelConfig.html#setup">setup</a></li></ul></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a><ul class='methods'><li data-type='method'><a href="ChannelConfigItem.html#deleteRepo">deleteRepo</a></li><li data-type='method'><a href="ChannelConfigItem.html#set">set</a></li></ul></li><li><a href="Command.html">Command</a><ul class='methods'><li data-type='method'><a href="Command.html#commandError">commandError</a></li><li data-type='method'><a href="Command.html#errorUsage">errorUsage</a></li><li data-type='method'><a href="Command.html#run">run</a></li><li data-type='method'><a href="Command.html#setConf">setConf</a></li><li data-type='method'><a href="Command.html#setHelp">setHelp</a></li></ul></li><li><a href="Gitlab.html">Gitlab</a><ul class='methods'><li data-type='method'><a href="Gitlab.html#getRepo">getRepo</a></li></ul></li><li><a href="Module.html">Module</a><ul class='methods'><li data-type='method'><a href="Module.html#init">init</a></li><li data-type='method'><a href="Module.html#moduleError">moduleError</a></li><li data-type='method'><a href="Module.html#run">run</a></li><li data-type='method'><a href="Module.html#textToEmbed">textToEmbed</a></li></ul></li><li><a href="Util.html">Util</a><ul class='methods'><li data-type='method'><a href="Util.html#MergeDefault">MergeDefault</a></li><li data-type='method'><a href="Util.html#Pad">Pad</a></li></ul></li></ul>
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a></li><li><a href="Client.html">Client</a></li><li><a href="Command.html">Command</a></li><li><a href="Gitlab.html">Gitlab</a></li><li><a href="Module.html">Module</a></li><li><a href="Util.html">Util</a></li></ul><h3>TypeDefs</h3><ul><li><a href="global.html#ChannelConfigSchema">ChannelConfigSchema</a></li><li><a href="global.html#ClientOptions">ClientOptions</a></li><li><a href="global.html#CommandConfig">CommandConfig</a></li><li><a href="global.html#CommandHelp">CommandHelp</a></li></ul><h3>Externals</h3><ul><li><a href="external-Channel.html">Channel</a></li><li><a href="external-Client.html">Client</a></li><li><a href="external-ClientOptions.html">ClientOptions</a></li><li><a href="external-Collection.html">Collection</a></li><li><a href="external-ColorResolvable.html">ColorResolvable</a></li><li><a href="external-Message.html">Message</a></li><li><a href="external-RichEmbed.html">RichEmbed</a></li></ul>
 </nav>
 
 <div id="main">
     
-    <h1 class="page-title">Gitlab</h1>
+
     
-
-    <!--container.tmpl-->
-
 
 
 
 
 <section>
 
-
-
-<header data-tmpl="container.tmpl">
+<header>
+	
     
         <h2>
         Gitlab
         </h2>
         
-            <div class="lead"><p>Gitlab class with custom helper methods, logs in immediatly if token is found</p></div>
+            <div class="class-description"><p>Gitlab class with custom helper methods, logs in immediatly if token is found</p></div>
         
     
-
-    
-      <div class="bs-callout bs-callout-default">
-        <h5>Members</h5>
-        <br />
-        <dl class="dl-horizontal methods-members">
-        <dt>Methods</dt><dd><ul>
-            <li><a href="#getRepo">getRepo</a></li>
-            </ul></dd></dl></div>
 </header>
 
 <article>
     <div class="container-overview">
     
-        <!--method.tmpl-->
-<div class="method-details">
-
-
-
-
+        
 
     
-    <h3 class="constructor">Constructor</h3>
-    
-
-    
-      <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Gitlab_index.js.html">index.js</a>:<a href="Gitlab_index.js.html#line8">8</a>
-  </code>
-</div>
-
+    <h2>Constructor</h2>
     
 
     <h4 class="name" id="Gitlab">
-      <a href="#params-Gitlab"><span class="type-signature"></span>new Gitlab</a><span class="signature">()</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>new <a href='#Gitlab' style='color: black'>Gitlab</a><span class="signature">()</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 
 
@@ -115,27 +78,7 @@
 
 
 
-
-
-
-
-
-<div class="collapse_" id="methodCollapse-Gitlab">
-
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
+<dl class="details">
 
     
 
@@ -153,6 +96,19 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Gitlab_index.js.html">Gitlab/index.js</a>, <a href="Gitlab_index.js.html#line9">line 9</a>
+    </li></ul></dd>
     
 
     
@@ -176,28 +132,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n* Gitlab class with custom helper methods, logs in immediatly if token is found\n*/","meta":{"range":[239,1632],"filename":"index.js","lineno":8,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Gitlab","code":{"id":"astnode100010002","name":"Gitlab","type":"ClassDeclaration","paramnames":[]},"shortpath":"Gitlab/index.js"},"classdesc":"<p>Gitlab class with custom helper methods, logs in immediatly if token is found</p>","name":"Gitlab","longname":"Gitlab","kind":"class","scope":"global","params":[],"___id":"T000003R000005","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"Gitlab","signature":"<span class=\"signature\">()</span><span class=\"type-signature\"></span>","ancestors":[]}
-</pre>
--->
 </div>
 
     
     </div>
+
+    
 
     
 
@@ -212,52 +152,25 @@
     
 
     
+	
         <h3 class="subsection-title">Methods</h3>
-
+	
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Gitlab_index.js.html">index.js</a>:<a href="Gitlab_index.js.html#line28">28</a>
-  </code>
-</div>
-
-
-
+            
 
     
 
-    
-
-    <h4 class="name" id="getRepo">
-      <a href="#params-getRepo"><span class="type-signature"></span>getRepo</a><span class="signature">(ownerOrId, name<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise}</span>
-
-    </h4>
+    <h4 class="name" id="getProjectIssue">
+		<span class="type-signature"></span>.<a href='#getProjectIssue' style='color: black'>getProjectIssue</a><span class="signature">(<span class="param-types">ownerOrId: String</span>, <span class="param-types">name?: String</span>, <span class="param-types">issue: String</span>)</span><span class="type-signature"> &rarr; Promise</span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
-    <p>Get GitLab repository information</p>
+    <p>Get GitLab repository's specific issue</p>
 </div>
 
 
@@ -267,61 +180,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-getRepo">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-getRepo" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -351,7 +214,966 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>repo's owner or full repo name/url</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>repo's name, required if ownerOrId is repo's owner</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>issue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+|
+
+<span class="param-type"><dd>Number</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>repo's issue</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Gitlab_index.js.html">Gitlab/index.js</a>, <a href="Gitlab_index.js.html#line76">line 76</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise</dd></span>
+
+
+</dd>
+</span>
+
+
+    
+
+
+</div>
+
+        
+            
+
+    
+
+    <h4 class="name" id="getProjectIssues">
+		<span class="type-signature"></span>.<a href='#getProjectIssues' style='color: black'>getProjectIssues</a><span class="signature">(<span class="param-types">ownerOrId: String</span>, <span class="param-types">name?: String</span>, <span class="param-types">params?: Object</span>)</span><span class="type-signature"> &rarr; Promise</span>
+	</h4>
+
+    
+
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+<div class="description">
+    <p>Get GitLab repository's issues</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ownerOrId</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>repo's owner or full repo name/url</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>repo's name, required if ownerOrId is repo's owner</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>params</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>Object</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>api params</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Gitlab_index.js.html">Gitlab/index.js</a>, <a href="Gitlab_index.js.html#line59">line 59</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise</dd></span>
+
+
+</dd>
+</span>
+
+
+    
+
+
+</div>
+
+        
+            
+
+    
+
+    <h4 class="name" id="getProjectMergeRequest">
+		<span class="type-signature"></span>.<a href='#getProjectMergeRequest' style='color: black'>getProjectMergeRequest</a><span class="signature">(<span class="param-types">ownerOrId: String</span>, <span class="param-types">name?: String</span>, <span class="param-types">issue: String</span>)</span><span class="type-signature"> &rarr; Promise</span>
+	</h4>
+
+    
+
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+<div class="description">
+    <p>Get GitLab repository's specific issue</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ownerOrId</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>repo's owner or full repo name/url</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>repo's name, required if ownerOrId is repo's owner</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>issue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+|
+
+<span class="param-type"><dd>Number</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>repo's issue</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Gitlab_index.js.html">Gitlab/index.js</a>, <a href="Gitlab_index.js.html#line112">line 112</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise</dd></span>
+
+
+</dd>
+</span>
+
+
+    
+
+
+</div>
+
+        
+            
+
+    
+
+    <h4 class="name" id="getProjectMergeRequests">
+		<span class="type-signature"></span>.<a href='#getProjectMergeRequests' style='color: black'>getProjectMergeRequests</a><span class="signature">(<span class="param-types">ownerOrId: String</span>, <span class="param-types">name?: String</span>, <span class="param-types">params?: Object</span>)</span><span class="type-signature"> &rarr; Promise</span>
+	</h4>
+
+    
+
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+<div class="description">
+    <p>Get GitLab repository's issues</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ownerOrId</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>repo's owner or full repo name/url</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>repo's name, required if ownerOrId is repo's owner</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>params</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>Object</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>api params</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Gitlab_index.js.html">Gitlab/index.js</a>, <a href="Gitlab_index.js.html#line94">line 94</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise</dd></span>
+
+
+</dd>
+</span>
+
+
+    
+
+
+</div>
+
+        
+            
+
+    
+
+    <h4 class="name" id="getRepo">
+		<span class="type-signature"></span>.<a href='#getRepo' style='color: black'>getRepo</a><span class="signature">(<span class="param-types">ownerOrId: String</span>, <span class="param-types">name?: String</span>)</span><span class="type-signature"> &rarr; Promise</span>
+	</h4>
+
+    
+
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+<div class="description">
+    <p>Get GitLab repository information</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ownerOrId</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -382,7 +1204,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -409,59 +1232,85 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Promise</span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Gitlab_index.js.html">Gitlab/index.js</a>, <a href="Gitlab_index.js.html#line28">line 28</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise</dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Get GitLab repository information\n  * @param {String} ownerOrId - Repo's owner or full repository name/url\n  * @param {String} [name] - Repo's name, required if ownerOrId is repo's owner\n  * @return {Promise}\n  */","meta":{"range":[880,1630],"filename":"index.js","lineno":28,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Gitlab","code":{"id":"astnode100010064","name":"Gitlab#getRepo","type":"MethodDefinition","paramnames":["ownerOrId","name"]},"vars":{"":null},"shortpath":"Gitlab/index.js"},"description":"<p>Get GitLab repository information</p>","params":[{"type":{"names":["String"]},"description":"<p>Repo's owner or full repository name/url</p>","name":"ownerOrId"},{"type":{"names":["String"]},"optional":true,"description":"<p>Repo's name, required if ownerOrId is repo's owner</p>","name":"name"}],"returns":[{"type":{"names":["Promise"]}}],"name":"getRepo","longname":"Gitlab#getRepo","kind":"function","memberof":"Gitlab","scope":"instance","___id":"T000002R000847","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"getRepo","signature":"<span class=\"signature\">(ownerOrId, name<span class=\"signature-attributes\">opt</span>)</span><span class=\"type-signature\"> &rarr; {Promise}</span>","ancestors":["<a href=\"Gitlab.html\">Gitlab</a>#"]}
-</pre>
--->
 </div>
 
         
-    
-
     
 
     
@@ -477,7 +1326,9 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.3</a> on Tue Apr 04 2017 17:21:36 GMT-0400 (EDT) using the LOKE theme.
+	<div align="right">
+    	<a href="https://github.com/jsdoc3/jsdoc">JSDoc3.4.3</a> | Minami
+	</div>
 </footer>
 
 <script>prettyPrint();</script>

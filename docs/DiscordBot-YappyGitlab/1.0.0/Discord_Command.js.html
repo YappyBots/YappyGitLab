@@ -9,12 +9,6 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
@@ -28,22 +22,18 @@
 
 <label for="nav-trigger" class="overlay"></label>
 
-<nav class="nav">
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a><ul class='methods'><li data-type='method'><a href="ChannelConfig.html#DeleteChannel">DeleteChannel</a></li><li data-type='method'><a href="ChannelConfig.html#DeleteRepo">DeleteRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindByChannel">FindByChannel</a></li><li data-type='method'><a href="ChannelConfig.html#FindByRepo">FindByRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindRepoInChannel">FindRepoInChannel</a></li><li data-type='method'><a href="ChannelConfig.html#SetChannel">SetChannel</a></li><li data-type='method'><a href="ChannelConfig.html#setup">setup</a></li></ul></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a><ul class='methods'><li data-type='method'><a href="ChannelConfigItem.html#deleteRepo">deleteRepo</a></li><li data-type='method'><a href="ChannelConfigItem.html#set">set</a></li></ul></li><li><a href="Command.html">Command</a><ul class='methods'><li data-type='method'><a href="Command.html#commandError">commandError</a></li><li data-type='method'><a href="Command.html#errorUsage">errorUsage</a></li><li data-type='method'><a href="Command.html#run">run</a></li><li data-type='method'><a href="Command.html#setConf">setConf</a></li><li data-type='method'><a href="Command.html#setHelp">setHelp</a></li></ul></li><li><a href="Gitlab.html">Gitlab</a><ul class='methods'><li data-type='method'><a href="Gitlab.html#getRepo">getRepo</a></li></ul></li><li><a href="Module.html">Module</a><ul class='methods'><li data-type='method'><a href="Module.html#init">init</a></li><li data-type='method'><a href="Module.html#moduleError">moduleError</a></li><li data-type='method'><a href="Module.html#run">run</a></li><li data-type='method'><a href="Module.html#textToEmbed">textToEmbed</a></li></ul></li><li><a href="Util.html">Util</a><ul class='methods'><li data-type='method'><a href="Util.html#MergeDefault">MergeDefault</a></li><li data-type='method'><a href="Util.html#Pad">Pad</a></li></ul></li></ul>
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a></li><li><a href="Client.html">Client</a></li><li><a href="Command.html">Command</a></li><li><a href="Gitlab.html">Gitlab</a></li><li><a href="Module.html">Module</a></li><li><a href="Util.html">Util</a></li></ul><h3>TypeDefs</h3><ul><li><a href="global.html#ChannelConfigSchema">ChannelConfigSchema</a></li><li><a href="global.html#ClientOptions">ClientOptions</a></li><li><a href="global.html#CommandConfig">CommandConfig</a></li><li><a href="global.html#CommandHelp">CommandHelp</a></li></ul><h3>Externals</h3><ul><li><a href="external-Channel.html">Channel</a></li><li><a href="external-Client.html">Client</a></li><li><a href="external-ClientOptions.html">ClientOptions</a></li><li><a href="external-Collection.html">Collection</a></li><li><a href="external-ColorResolvable.html">ColorResolvable</a></li><li><a href="external-Message.html">Message</a></li><li><a href="external-RichEmbed.html">RichEmbed</a></li></ul>
 </nav>
 
 <div id="main">
     
-    <h1 class="page-title">Discord/Command.js</h1>
+
     
 
-    <!--container.tmpl-->
 
 
-
-
-    <!--source.tmpl-->
-
+    
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>const MergeDefault = require('../Util/MergeDefault');
@@ -52,12 +42,12 @@ const default_help = (command) => {
   if (!command) return {};
   /**
   * The command's help
-  * @typedef {object} CommandHelp
-  * @property {string} name           - command's name
-  * @property {string} summary        - command's summary
-  * @property {string} description    - command's description
-  * @property {string} usage         - command's usage
-  * @property {string[]} examples     - command's usage examples
+  * @typedef {Object} CommandHelp
+  * @property {String} name           - command's name
+  * @property {String} summary        - command's summary
+  * @property {String} description    - command's description
+  * @property {String} usage         - command's usage
+  * @property {String[]} examples     - command's usage examples
   */
   return {
     name: command ? command.name : 'null',
@@ -67,11 +57,11 @@ const default_help = (command) => {
 };
 /**
 * The command's config
-* @typedef {object} CommandConfig
-* @property {boolean} enabled   - is command enabled
-* @property {boolean} guildOnly - is command guild only
-* @property {string[]} aliases  - command's aliases
-* @property {number} permLevel  - command's perm level; 0 - everyone, 1 - admin, 2 - owner
+* @typedef {Object} CommandConfig
+* @property {Boolean} enabled   - is command enabled
+* @property {Boolean} guildOnly - is command guild only
+* @property {String[]} aliases  - command's aliases
+* @property {Number} permLevel  - command's perm level; 0 - everyone, 1 - admin, 2 - owner
 */
 const default_conf = {
   enabled: true,
@@ -89,6 +79,11 @@ class Command {
   */
   constructor(bot) {
     this.bot = bot;
+    /**
+     * Command props
+     * @private
+     * @type {Object}
+     */
     this.props = {};
     this._path = Log._path;
     this.embed = Discord.RichEmbed;
@@ -98,8 +93,8 @@ class Command {
 
   /**
   * Command's function
-  * @param {Message} msg - the message
-  * @param {string[]} args - message arguments; no command
+  * @param {external:Message} msg - the message
+  * @param {String[]} args - message arguments; no command
   */
   run(msg) {
     msg.channel.sendMessage('No run command configured!');
@@ -115,7 +110,7 @@ class Command {
 
   /**
   * Get command's config
-  * @return {CommandConfig} command's config
+  * @type {CommandConfig}
   */
   get conf() {
     return this.props.conf;
@@ -131,7 +126,7 @@ class Command {
 
   /**
   * Get command's help
-  * @return {CommandHelp} command's help
+  * @type {CommandHelp}
   */
   get help() {
     return this.props.help;
@@ -139,23 +134,51 @@ class Command {
 
   /**
   * Function to shorten sending error messages
-  * @param {Message} msg - message sent by user (for channel)
-  * @param {string} str - error message to send user
-  * @return {Promise&lt;Message>}
+  * @param {external:Message} msg - message sent by user (for channel)
+  * @param {Error|String} err - error message to send user
+  * @param {String} [title = 'An Error Ocurred'] - title of error embed to send to user
+  * @param {String} [footer] - footer of error embed
+  * @return {Promise&lt;external:Message>}
   */
-  commandError(msg, str) {
-    return msg.channel.sendMessage(`❌ ${str}`);
+  commandError(msg, err, title, footer) {
+    if (err instanceof Error) Log.error(err);
+    const embed = this.textToEmbed(err.name || title || 'Error', err.message || err, '#CE0814');
+    if (footer) embed.footer.text = footer;
+    return msg.channel.send({ embed });
   }
 
   /**
   * Error the command's usage to the channel
-  * @param {Message} msg - message sent by user (for channel)
-  * @return {Promise&lt;Message>}
+  * @param {external:Message} msg - message sent by user (for channel)
+  * @return {Promise&lt;external:Message>}
   */
   errorUsage(msg) {
-    return this.commandError(msg, `Correct usage: \`${this.bot.prefix}${this.help.usage}\``);
+    return this.commandError(msg, `Correct usage: \`${this.bot.prefix}${this.help.usage}\``, 'Incorrect Usage');
   }
 
+  /**
+   * Convert normal text to an embed object
+   * @param {String} [title = 'Auto Generated Response'] - embed title
+   * @param {String|String[]} text - embed description, joined with newline if array
+   * @param {external:ColorResolvable} [color = '#84F139'] - embed color
+   * @return {external:RichEmbed}
+   */
+  textToEmbed(title = 'Auto Generated Response', text, color = '#84F139') {
+    if (Array.isArray(text)) text = text.join('\n');
+    return new this.embed()
+    .setColor(color)
+    .setTitle(title)
+    .setDescription(text)
+    .setFooter(this.bot.user.username, this.bot.user.avatarURL);
+  }
+
+
+  /**
+   * Generate args, keeping strings in quotes as one argument
+   * @example
+   * generateArgs("hi 'hello there' hehe") // ['hi', 'hello there', 'hehe']
+   * @type {String}
+   */
   generateArgs(strOrArgs = '') {
     let str = Array.isArray(strOrArgs) ? strOrArgs.join(' ') : strOrArgs;
     let y = str.match(/[^\s'']+|'([^']*)'|'([^']*)'/g);
@@ -184,7 +207,9 @@ module.exports = Command;
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.3</a> on Tue Apr 04 2017 17:21:36 GMT-0400 (EDT) using the LOKE theme.
+	<div align="right">
+    	<a href="https://github.com/jsdoc3/jsdoc">JSDoc3.4.3</a> | Minami
+	</div>
 </footer>
 
 <script>prettyPrint();</script>

@@ -9,12 +9,6 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
@@ -28,165 +22,62 @@
 
 <label for="nav-trigger" class="overlay"></label>
 
-<nav class="nav">
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a><ul class='methods'><li data-type='method'><a href="ChannelConfig.html#DeleteChannel">DeleteChannel</a></li><li data-type='method'><a href="ChannelConfig.html#DeleteRepo">DeleteRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindByChannel">FindByChannel</a></li><li data-type='method'><a href="ChannelConfig.html#FindByRepo">FindByRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindRepoInChannel">FindRepoInChannel</a></li><li data-type='method'><a href="ChannelConfig.html#SetChannel">SetChannel</a></li><li data-type='method'><a href="ChannelConfig.html#setup">setup</a></li></ul></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a><ul class='methods'><li data-type='method'><a href="ChannelConfigItem.html#deleteRepo">deleteRepo</a></li><li data-type='method'><a href="ChannelConfigItem.html#set">set</a></li></ul></li><li><a href="Command.html">Command</a><ul class='methods'><li data-type='method'><a href="Command.html#commandError">commandError</a></li><li data-type='method'><a href="Command.html#errorUsage">errorUsage</a></li><li data-type='method'><a href="Command.html#run">run</a></li><li data-type='method'><a href="Command.html#setConf">setConf</a></li><li data-type='method'><a href="Command.html#setHelp">setHelp</a></li></ul></li><li><a href="Gitlab.html">Gitlab</a><ul class='methods'><li data-type='method'><a href="Gitlab.html#getRepo">getRepo</a></li></ul></li><li><a href="Module.html">Module</a><ul class='methods'><li data-type='method'><a href="Module.html#init">init</a></li><li data-type='method'><a href="Module.html#moduleError">moduleError</a></li><li data-type='method'><a href="Module.html#run">run</a></li><li data-type='method'><a href="Module.html#textToEmbed">textToEmbed</a></li></ul></li><li><a href="Util.html">Util</a><ul class='methods'><li data-type='method'><a href="Util.html#MergeDefault">MergeDefault</a></li><li data-type='method'><a href="Util.html#Pad">Pad</a></li></ul></li></ul>
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a></li><li><a href="Client.html">Client</a></li><li><a href="Command.html">Command</a></li><li><a href="Gitlab.html">Gitlab</a></li><li><a href="Module.html">Module</a></li><li><a href="Util.html">Util</a></li></ul><h3>TypeDefs</h3><ul><li><a href="global.html#ChannelConfigSchema">ChannelConfigSchema</a></li><li><a href="global.html#ClientOptions">ClientOptions</a></li><li><a href="global.html#CommandConfig">CommandConfig</a></li><li><a href="global.html#CommandHelp">CommandHelp</a></li></ul><h3>Externals</h3><ul><li><a href="external-Channel.html">Channel</a></li><li><a href="external-Client.html">Client</a></li><li><a href="external-ClientOptions.html">ClientOptions</a></li><li><a href="external-Collection.html">Collection</a></li><li><a href="external-ColorResolvable.html">ColorResolvable</a></li><li><a href="external-Message.html">Message</a></li><li><a href="external-RichEmbed.html">RichEmbed</a></li></ul>
 </nav>
 
 <div id="main">
     
-    <h1 class="page-title">Command</h1>
+
     
-
-    <!--container.tmpl-->
-
 
 
 
 
 <section>
 
-
-
-<header data-tmpl="container.tmpl">
+<header>
+	
     
         <h2>
         Command
         </h2>
         
-            <div class="lead"><p>Discord bot command</p></div>
+            <div class="class-description"><p>Discord bot command</p></div>
         
     
-
-    
-      <div class="bs-callout bs-callout-default">
-        <h5>Members</h5>
-        <br />
-        <dl class="dl-horizontal methods-members">
-        <dt>Fields &amp; Properties</dt><dd><ul>
-            <li><a href="#conf">conf</a></li>
-            
-            <li><a href="#help">help</a></li>
-            </ul></dd><dt>Methods</dt><dd><ul>
-            <li><a href="#commandError">commandError</a></li>
-            
-            <li><a href="#errorUsage">errorUsage</a></li>
-            
-            <li><a href="#run">run</a></li>
-            
-            <li><a href="#setConf">setConf</a></li>
-            
-            <li><a href="#setHelp">setHelp</a></li>
-            </ul></dd></dl></div>
 </header>
 
 <article>
     <div class="container-overview">
     
-        <!--method.tmpl-->
-<div class="method-details">
-
-
-
-
+        
 
     
-    <h3 class="constructor">Constructor</h3>
-    
-
-    
-      <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Command.js.html">Command.js</a>:<a href="Discord_Command.js.html#line38">38</a>
-  </code>
-</div>
-
+    <h2>Constructor</h2>
     
 
     <h4 class="name" id="Command">
-      <a href="#params-Command"><span class="type-signature"></span>new Command</a><span class="signature">(bot)</span><span class="type-signature"></span>
-
-    </h4>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="collapse_" id="methodCollapse-Command">
-
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
+		<span class="type-signature"></span>new <a href='#Command' style='color: black'>Command</a><span class="signature">(<span class="param-types">bot: <a href="Client.html">Client</a></span>)</span><span class="type-signature"></span>
+	</h4>
 
     
 
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-Command" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -214,7 +105,8 @@
             <td class="type">
             
                 
-<span class="param-type">Client</span>
+<span class="param-type"><dd><a href="Client.html">Client</a></dd></span>
+
 
 
             
@@ -231,7 +123,50 @@
     </tbody>
 </table>
 
-  </div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line38">line 38</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -247,21 +182,12 @@
 
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n* Discord bot command\n*/","meta":{"range":[1136,3139],"filename":"Command.js","lineno":38,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100001185","name":"Command","type":"ClassDeclaration","paramnames":["bot"]},"shortpath":"Discord/Command.js"},"classdesc":"<p>Discord bot command</p>","name":"Command","longname":"Command","kind":"class","scope":"global","params":[{"type":{"names":["Client"]},"description":"<p>discord bot</p>","name":"bot"}],"___id":"T000003R000004","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"Command","signature":"<span class=\"signature\">(bot)</span><span class=\"type-signature\"></span>","ancestors":[]}
-</pre>
--->
 </div>
 
     
     </div>
+
+    
 
     
 
@@ -274,31 +200,13 @@
     
 
     
-        <h3 class="subsection-title">Members</h3>
+        <h3 class="subsection-title">Properties</h3>
 
         
-            <!--members.tmpl-->
-<div class="member-details">
+            
+<h4 class="name" id="conf">.<a href='#conf' style='color: black'>conf</a><span class="type-signature">: <a href="global.html#CommandConfig">CommandConfig</a></span></h4>
 
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Command.js.html">Command.js</a>:<a href="Discord_Command.js.html#line72">72</a>
-  </code>
-</div>
-
-
-
-<h4 class="name" id="conf">
-  <span class="type-signature"></span>conf<span class="type-signature"></span>
-</h4>
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 
 
@@ -307,20 +215,18 @@
 </div>
 
 
-<div>
 
-<!-- details.tmpl -->
-
-
+    <b>Type:</b> 
+<span class="param-type"><dd><a href="global.html#CommandConfig">CommandConfig</a></dd></span>
 
 
 
 
 
 
-<dl class="dl-horizontal">
 
-    
+
+<dl class="details">
 
     
 
@@ -336,6 +242,21 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line77">line 77</a>
+    </li></ul></dd>
     
 
     
@@ -349,39 +270,13 @@
 
 
 
-
-
-
-
-
-
-</div>
-
 </div>
 
         
-            <!--members.tmpl-->
-<div class="member-details">
+            
+<h4 class="name" id="help">.<a href='#help' style='color: black'>help</a><span class="type-signature">: <a href="global.html#CommandHelp">CommandHelp</a></span></h4>
 
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Command.js.html">Command.js</a>:<a href="Discord_Command.js.html#line88">88</a>
-  </code>
-</div>
-
-
-
-<h4 class="name" id="help">
-  <span class="type-signature"></span>help<span class="type-signature"></span>
-</h4>
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 
 
@@ -390,20 +285,18 @@
 </div>
 
 
-<div>
 
-<!-- details.tmpl -->
-
-
+    <b>Type:</b> 
+<span class="param-type"><dd><a href="global.html#CommandHelp">CommandHelp</a></dd></span>
 
 
 
 
 
 
-<dl class="dl-horizontal">
 
-    
+
+<dl class="details">
 
     
 
@@ -419,6 +312,21 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line93">line 93</a>
+    </li></ul></dd>
     
 
     
@@ -432,13 +340,75 @@
 
 
 
-
-
-
-
-
-
 </div>
+
+        
+            
+<h4 class="name" id="props">.<a href='#props' style='color: black'>props</a><span class="type-signature">: Object</span></h4>
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+
+
+<div class="description">
+    <p>Command props</p>
+</div>
+
+
+
+    <b>Type:</b> 
+<span class="param-type"><dd>Object</dd></span>
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line49">line 49</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
 
 </div>
 
@@ -446,49 +416,22 @@
     
 
     
+	
         <h3 class="subsection-title">Methods</h3>
-
+	
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Command.js.html">Command.js</a>:<a href="Discord_Command.js.html#line98">98</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="commandError">
-      <a href="#params-commandError"><span class="type-signature"></span>commandError</a><span class="signature">(msg, str)</span><span class="type-signature"> &rarr; {Promise.&lt;Message>}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#commandError' style='color: black'>commandError</a><span class="signature">(<span class="param-types">msg: <a href="external-Message.html">Message</a></span>, <span class="param-types">err: Error</span>, <span class="param-types">title?: String</span>, <span class="param-types">footer?: String</span>)</span><span class="type-signature"> &rarr; Promise&lt;<a href="external-Message.html">Message</a>></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Function to shorten sending error messages</p>
@@ -501,61 +444,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-commandError">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-commandError" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -565,7 +458,11 @@
         <th>Type</th>
 
         
+        <th>Attributes</th>
+        
 
+        
+        <th>Default</th>
         
 
         <th class="last">Description</th>
@@ -583,14 +480,27 @@
             <td class="type">
             
                 
-<span class="param-type">Message</span>
+<span class="param-type"><dd><a href="external-Message.html">Message</a></dd></span>
+
 
 
             
             </td>
 
             
+                <td class="attributes">
+                
 
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
             
 
             <td class="description last"><p>message sent by user (for channel)</p></td>
@@ -600,120 +510,214 @@
 
         <tr>
             
-                <td class="name"><code>str</code></td>
+                <td class="name"><code>err</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type"><dd>Error</dd></span>
+|
+
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
             </td>
 
             
+                <td class="attributes">
+                
 
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
             
 
             <td class="description last"><p>error message to send user</p></td>
         </tr>
 
     
+
+        <tr>
+            
+                <td class="name"><code>title</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'An Error Ocurred'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>title of error embed to send to user</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>footer</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>footer of error embed</p></td>
+        </tr>
+
+    
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Promise.&lt;Message></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line105">line 105</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise&lt;<a href="external-Message.html">Message</a>></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Function to shorten sending error messages\n  * @param {Message} msg - message sent by user (for channel)\n  * @param {string} str - error message to send user\n  * @return {Promise<Message>}\n  */","meta":{"range":[2371,2447],"filename":"Command.js","lineno":98,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100001302","name":"Command#commandError","type":"MethodDefinition","paramnames":["msg","str"]},"vars":{"":null},"shortpath":"Discord/Command.js"},"description":"<p>Function to shorten sending error messages</p>","params":[{"type":{"names":["Message"]},"description":"<p>message sent by user (for channel)</p>","name":"msg"},{"type":{"names":["string"]},"description":"<p>error message to send user</p>","name":"str"}],"returns":[{"type":{"names":["Promise.<Message>"]}}],"name":"commandError","longname":"Command#commandError","kind":"function","memberof":"Command","scope":"instance","___id":"T000002R000089","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"commandError","signature":"<span class=\"signature\">(msg, str)</span><span class=\"type-signature\"> &rarr; {Promise.&lt;Message>}</span>","ancestors":["<a href=\"Command.html\">Command</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Command.js.html">Command.js</a>:<a href="Discord_Command.js.html#line107">107</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="errorUsage">
-      <a href="#params-errorUsage"><span class="type-signature"></span>errorUsage</a><span class="signature">(msg)</span><span class="type-signature"> &rarr; {Promise.&lt;Message>}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#errorUsage' style='color: black'>errorUsage</a><span class="signature">(<span class="param-types">msg: <a href="external-Message.html">Message</a></span>)</span><span class="type-signature"> &rarr; Promise&lt;<a href="external-Message.html">Message</a>></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Error the command's usage to the channel</p>
@@ -726,61 +730,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-errorUsage">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-errorUsage" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -808,7 +762,8 @@
             <td class="type">
             
                 
-<span class="param-type">Message</span>
+<span class="param-type"><dd><a href="external-Message.html">Message</a></dd></span>
+
 
 
             
@@ -825,97 +780,189 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Promise.&lt;Message></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line117">line 117</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise&lt;<a href="external-Message.html">Message</a>></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Error the command's usage to the channel\n  * @param {Message} msg - message sent by user (for channel)\n  * @return {Promise<Message>}\n  */","meta":{"range":[2600,2715],"filename":"Command.js","lineno":107,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100001319","name":"Command#errorUsage","type":"MethodDefinition","paramnames":["msg"]},"vars":{"":null},"shortpath":"Discord/Command.js"},"description":"<p>Error the command's usage to the channel</p>","params":[{"type":{"names":["Message"]},"description":"<p>message sent by user (for channel)</p>","name":"msg"}],"returns":[{"type":{"names":["Promise.<Message>"]}}],"name":"errorUsage","longname":"Command#errorUsage","kind":"function","memberof":"Command","scope":"instance","___id":"T000002R000090","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"errorUsage","signature":"<span class=\"signature\">(msg)</span><span class=\"type-signature\"> &rarr; {Promise.&lt;Message>}</span>","ancestors":["<a href=\"Command.html\">Command</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
+            
+
+    
+
+    <h4 class="name" id="generateArgs">
+		<span class="type-signature"></span>.<a href='#generateArgs' style='color: black'>generateArgs</a><span class="signature">()</span><span class="type-signature"></span>
+	</h4>
+
+    
 
 
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Command.js.html">Command.js</a>:<a href="Discord_Command.js.html#line56">56</a>
-  </code>
+<div class="description">
+    <p>Generate args, keeping strings in quotes as one argument</p>
 </div>
 
 
 
 
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line144">line 144</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>generateArgs("hi 'hello there' hehe") // ['hi', 'hello there', 'hehe']</code></pre>
+
+
+
+</div>
+
+        
+            
 
     
 
     <h4 class="name" id="run">
-      <a href="#params-run"><span class="type-signature"></span>run</a><span class="signature">(msg, args)</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#run' style='color: black'>run</a><span class="signature">(<span class="param-types">msg: <a href="external-Message.html">Message</a></span>, <span class="param-types">args: String[]</span>)</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Command's function</p>
@@ -928,61 +975,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-run">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-run" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -1010,7 +1007,8 @@
             <td class="type">
             
                 
-<span class="param-type">Message</span>
+<span class="param-type"><dd><a href="external-Message.html">Message</a></dd></span>
+
 
 
             
@@ -1033,7 +1031,8 @@
             <td class="type">
             
                 
-<span class="param-type">Array.&lt;string></span>
+<span class="param-type"><dd>String[]</dd></span>
+
 
 
             
@@ -1050,7 +1049,50 @@
     </tbody>
 </table>
 
-  </div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line61">line 61</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -1066,60 +1108,21 @@
 
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Command's function\n  * @param {Message} msg - the message\n  * @param {string[]} args - message arguments; no command\n  */","meta":{"range":[1506,1579],"filename":"Command.js","lineno":56,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100001231","name":"Command#run","type":"MethodDefinition","paramnames":["msg"]},"vars":{"":null},"shortpath":"Discord/Command.js"},"description":"<p>Command's function</p>","params":[{"type":{"names":["Message"]},"description":"<p>the message</p>","name":"msg"},{"type":{"names":["Array.<string>"]},"description":"<p>message arguments; no command</p>","name":"args"}],"name":"run","longname":"Command#run","kind":"function","memberof":"Command","scope":"instance","___id":"T000002R000082","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"run","signature":"<span class=\"signature\">(msg, args)</span><span class=\"type-signature\"></span>","ancestors":["<a href=\"Command.html\">Command</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Command.js.html">Command.js</a>:<a href="Discord_Command.js.html#line64">64</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="setConf">
-      <a href="#params-setConf"><span class="type-signature"></span>setConf</a><span class="signature">(conf)</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#setConf' style='color: black'>setConf</a><span class="signature">(<span class="param-types">conf: <a href="global.html#CommandConfig">CommandConfig</a></span>)</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Set command's config</p>
@@ -1132,61 +1135,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-setConf">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-setConf" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -1214,7 +1167,8 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="global.html#CommandConfig">CommandConfig</a></span>
+<span class="param-type"><dd><a href="global.html#CommandConfig">CommandConfig</a></dd></span>
+
 
 
             
@@ -1231,7 +1185,50 @@
     </tbody>
 </table>
 
-  </div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line69">line 69</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -1247,60 +1244,21 @@
 
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Set command's config\n  * @param {CommandConfig} conf - new config\n  */","meta":{"range":[1664,1744],"filename":"Command.js","lineno":64,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100001244","name":"Command#setConf","type":"MethodDefinition","paramnames":["conf"]},"vars":{"":null},"shortpath":"Discord/Command.js"},"description":"<p>Set command's config</p>","params":[{"type":{"names":["CommandConfig"]},"description":"<p>new config</p>","name":"conf"}],"name":"setConf","longname":"Command#setConf","kind":"function","memberof":"Command","scope":"instance","___id":"T000002R000083","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"setConf","signature":"<span class=\"signature\">(conf)</span><span class=\"type-signature\"></span>","ancestors":["<a href=\"Command.html\">Command</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Discord_Command.js.html">Command.js</a>:<a href="Discord_Command.js.html#line80">80</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="setHelp">
-      <a href="#params-setHelp"><span class="type-signature"></span>setHelp</a><span class="signature">(conf)</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#setHelp' style='color: black'>setHelp</a><span class="signature">(<span class="param-types">conf: <a href="global.html#CommandHelp">CommandHelp</a></span>)</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Set command's help</p>
@@ -1313,61 +1271,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-setHelp">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-setHelp" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -1395,7 +1303,8 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="global.html#CommandHelp">CommandHelp</a></span>
+<span class="param-type"><dd><a href="global.html#CommandHelp">CommandHelp</a></dd></span>
+
 
 
             
@@ -1412,7 +1321,50 @@
     </tbody>
 </table>
 
-  </div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line85">line 85</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -1428,22 +1380,261 @@
 
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Set command's help\n  * @param {CommandHelp} conf - new config\n  */","meta":{"range":[1954,2040],"filename":"Command.js","lineno":80,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Discord","code":{"id":"astnode100001272","name":"Command#setHelp","type":"MethodDefinition","paramnames":["help"]},"vars":{"":null},"shortpath":"Discord/Command.js"},"description":"<p>Set command's help</p>","params":[{"type":{"names":["CommandHelp"]},"description":"<p>new config</p>","name":"conf"}],"name":"setHelp","longname":"Command#setHelp","kind":"function","memberof":"Command","scope":"instance","___id":"T000002R000086","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"setHelp","signature":"<span class=\"signature\">(conf)</span><span class=\"type-signature\"></span>","ancestors":["<a href=\"Command.html\">Command</a>#"]}
-</pre>
--->
 </div>
 
         
+            
+
     
 
+    <h4 class="name" id="textToEmbed">
+		<span class="type-signature"></span>.<a href='#textToEmbed' style='color: black'>textToEmbed</a><span class="signature">(<span class="param-types">title?: String</span>, <span class="param-types">text: String</span>, <span class="param-types">color?: <a href="external-ColorResolvable.html">ColorResolvable</a></span>)</span><span class="type-signature"> &rarr; <a href="external-RichEmbed.html">RichEmbed</a></span>
+	</h4>
+
+    
+
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+<div class="description">
+    <p>Convert normal text to an embed object</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>title</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'Auto Generated Response'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>embed title</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>text</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+|
+
+<span class="param-type"><dd>String[]</dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>embed description, joined with newline if array</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>color</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd><a href="external-ColorResolvable.html">ColorResolvable</a></dd></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'#84F139'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>embed color</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Discord_Command.js.html">Discord/Command.js</a>, <a href="Discord_Command.js.html#line128">line 128</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd><a href="external-RichEmbed.html">RichEmbed</a></dd></span>
+
+
+</dd>
+</span>
+
+
+    
+
+
+</div>
+
+        
     
 
     
@@ -1459,7 +1650,9 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.3</a> on Tue Apr 04 2017 17:21:36 GMT-0400 (EDT) using the LOKE theme.
+	<div align="right">
+    	<a href="https://github.com/jsdoc3/jsdoc">JSDoc3.4.3</a> | Minami
+	</div>
 </footer>
 
 <script>prettyPrint();</script>

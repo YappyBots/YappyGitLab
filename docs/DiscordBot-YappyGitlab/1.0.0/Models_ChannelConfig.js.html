@@ -9,12 +9,6 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
@@ -28,28 +22,36 @@
 
 <label for="nav-trigger" class="overlay"></label>
 
-<nav class="nav">
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a><ul class='methods'><li data-type='method'><a href="ChannelConfig.html#DeleteChannel">DeleteChannel</a></li><li data-type='method'><a href="ChannelConfig.html#DeleteRepo">DeleteRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindByChannel">FindByChannel</a></li><li data-type='method'><a href="ChannelConfig.html#FindByRepo">FindByRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindRepoInChannel">FindRepoInChannel</a></li><li data-type='method'><a href="ChannelConfig.html#SetChannel">SetChannel</a></li><li data-type='method'><a href="ChannelConfig.html#setup">setup</a></li></ul></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a><ul class='methods'><li data-type='method'><a href="ChannelConfigItem.html#deleteRepo">deleteRepo</a></li><li data-type='method'><a href="ChannelConfigItem.html#set">set</a></li></ul></li><li><a href="Command.html">Command</a><ul class='methods'><li data-type='method'><a href="Command.html#commandError">commandError</a></li><li data-type='method'><a href="Command.html#errorUsage">errorUsage</a></li><li data-type='method'><a href="Command.html#run">run</a></li><li data-type='method'><a href="Command.html#setConf">setConf</a></li><li data-type='method'><a href="Command.html#setHelp">setHelp</a></li></ul></li><li><a href="Gitlab.html">Gitlab</a><ul class='methods'><li data-type='method'><a href="Gitlab.html#getRepo">getRepo</a></li></ul></li><li><a href="Module.html">Module</a><ul class='methods'><li data-type='method'><a href="Module.html#init">init</a></li><li data-type='method'><a href="Module.html#moduleError">moduleError</a></li><li data-type='method'><a href="Module.html#run">run</a></li><li data-type='method'><a href="Module.html#textToEmbed">textToEmbed</a></li></ul></li><li><a href="Util.html">Util</a><ul class='methods'><li data-type='method'><a href="Util.html#MergeDefault">MergeDefault</a></li><li data-type='method'><a href="Util.html#Pad">Pad</a></li></ul></li></ul>
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a></li><li><a href="Client.html">Client</a></li><li><a href="Command.html">Command</a></li><li><a href="Gitlab.html">Gitlab</a></li><li><a href="Module.html">Module</a></li><li><a href="Util.html">Util</a></li></ul><h3>TypeDefs</h3><ul><li><a href="global.html#ChannelConfigSchema">ChannelConfigSchema</a></li><li><a href="global.html#ClientOptions">ClientOptions</a></li><li><a href="global.html#CommandConfig">CommandConfig</a></li><li><a href="global.html#CommandHelp">CommandHelp</a></li></ul><h3>Externals</h3><ul><li><a href="external-Channel.html">Channel</a></li><li><a href="external-Client.html">Client</a></li><li><a href="external-ClientOptions.html">ClientOptions</a></li><li><a href="external-Collection.html">Collection</a></li><li><a href="external-ColorResolvable.html">ColorResolvable</a></li><li><a href="external-Message.html">Message</a></li><li><a href="external-RichEmbed.html">RichEmbed</a></li></ul>
 </nav>
 
 <div id="main">
     
-    <h1 class="page-title">Models/ChannelConfig.js</h1>
+
     
 
-    <!--container.tmpl-->
 
 
-
-
-    <!--source.tmpl-->
-
+    
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>const mongoose = require('mongoose');
 const Collection = require('discord.js').Collection;
 const Schema = mongoose.Schema;
 
+/**
+* The channel config Schema
+* @typedef {Object} ChannelConfigSchema
+* @property {String} guildName - Guild Name
+* @property {String} guildId Guild Id
+* @property {String} channelName Channel Name
+* @property {String} channelId Channel Id
+* @property {Array} repos Array of repos to event to channel (channelId)
+* @property {Array} repo Repo to use for gitlab commands in channel
+* @property {Array} disabledEvents Github events to disable in this channel
+* @property {Boolean} embed Use embeds for events or not
+*/
 let channelConfigSchema = Schema({
   guildName: String,
   guildId: String,
@@ -57,6 +59,8 @@ let channelConfigSchema = Schema({
   channelId: String,
   prefix: String,
   repos: Array,
+  repo: String,
+  embed: Boolean,
   disabledEvents: {
     type: Array,
     default: [
@@ -117,6 +121,13 @@ class ChannelConfig {
     */
     this._data = new Collection();
     this.setup();
+    this.validKeys = [
+      'prefix',
+      'repos',
+      'repo',
+      'disabledEvents',
+      'embed',
+    ];
   }
   /**
   * Get config from database and add to this._data
@@ -128,6 +139,10 @@ class ChannelConfig {
       });
     });
   }
+  /**
+   * Initialize configuration and Discord bot events
+   * @param {external:Client} bot
+   */
   init(bot) {
     for (const ch of bot.channels) {
       const channel = ch[1];
@@ -167,6 +182,7 @@ class ChannelConfig {
   FindByChannel(channel) {
     return this._data.find('channelId', channel);
   }
+
   /**
   * Find channels with events for repo
   * @param {String} channel Channel (ID) with the repo's events
@@ -176,10 +192,11 @@ class ChannelConfig {
   FindRepoInChannel(channel, repo) {
     return this._data.find(e => e.channelId = channel &amp;&amp; e.repos.includes(repo));
   }
+
   /**
   * Delete all repo events from channel
   * @param {String} channel Channel with the events to delete
-  * @return {ChannelConfig}
+  * @return {Promise&lt;ChannelConfig>}
   */
   DeleteChannel(channel) {
     return channelConfig.findOneAndRemove({
@@ -191,43 +208,12 @@ class ChannelConfig {
       return Promise.resolve(this);
     });
   }
+
   /**
-  * Delete repo events from specific channel
-  * @param {String} channel Channel with the repo events
-  * @param {String} repo Repo event to remove from Channel
-  * @return {ChannelConfig}
+  * Add channel to config
+  * @param {external:Channel} channel Channel to add repo events
+  * @return {Promise&lt;ChannelConfig>}
   */
-  DeleteRepo(channel, repo) {
-    return channelConfig.findOneAndRemove({
-      repo,
-    }).then(() => {
-      let oldRepos = this._data.find('channelId', channel);
-      let newRepos = oldRepos.slice(0, oldRepos.indexOf(repo));
-      return this.SetChannel(channel, 'repos', newRepos);
-    });
-  }
-  /**
-  * Delete repo events from specific channel
-  * @param {String} channel Channel with the repo events
-  * @param {String} repo Repo event to remove from Channel
-  * @return {ChannelConfig}
-  */
-  SetChannel(channel, prop, value) {
-    return new Promise((resolve, reject) => {
-      let oldConfig = this._data.find('channelId', channel);
-      let newConfig = oldConfig;
-      newConfig[prop] = value;
-      channelConfig.findOneAndUpdate({
-        channelId: channel,
-      }, newConfig, {
-        new: true,
-      }, (err) => {
-        if (err) return reject(err);
-        this._data.set(newConfig.channel, new ChannelConfigItem(this, newConfig));
-        resolve(newConfig);
-      });
-    });
-  }
   AddChannel(channel) {
     if (!channel || !channel.id) return Promise.reject(`No channel passed!`);
     if (channel &amp;&amp; channel.id &amp;&amp; this.FindByChannel(channel.id)) return Promise.reject(`Channel already has an entry in database`);
@@ -245,25 +231,63 @@ class ChannelConfig {
       return Promise.resolve(this);
     });
   }
-  async AddRepoToChannel(channel, repo) {
+
+  /**
+  * Replace specific channel config prop with value
+  * @param {String} channel Channel with the repo events
+  * @param {String} prop Property to set
+  * @param {String} value Value to set property to
+  * @return {Promise&lt;ChannelConfig>} updated config item
+  */
+  SetChannel(channel, prop, value) {
+    return new Promise((resolve, reject) => {
+      let oldConfig = this._data.find('channelId', channel);
+      let newConfig = oldConfig;
+      newConfig[prop] = value;
+      channelConfig.findOneAndUpdate({
+        channelId: channel,
+      }, newConfig, {
+        new: true,
+      }, (err) => {
+        if (err) return reject(err);
+        this._data.set(newConfig.channel, new ChannelConfigItem(this, newConfig));
+        resolve(this);
+      });
+    });
+  }
+
+  /**
+  * Add repo to channel
+  * @param {external:Channel} channel Channel to add repo to
+  * @param {String} repo repo to add to channel
+  * @see ChannelConfig#SetChannel
+  * @return {Promise&lt;ChannelConfig>}
+  */
+  AddRepoToChannel(channel, repo) {
     if (!channel || !repo) return Promise.reject(`Invalid arguments.`);
     let conf = this.FindByChannel(channel);
     let repos = conf.repos;
     repos.push(repo.toLowerCase());
     return this.SetChannel(channel, 'repos', repos);
   }
-}
 
-/**
-* The channel config Schema
-* @typedef {Object} ChannelConfigSchema
-* @property {String} guildName Guild Name
-* @property {String} guildId Guild Id
-* @property {String} channelName Channel Name
-* @property {String} channelId Channel Id
-* @property {Array} repos Array of repos to event to channel (channelId)
-* @property {Array} disabledEvents Github events to disable in this channel
-*/
+  /**
+  * Delete repo events from specific channel
+  * @param {String} channel Channel with the repo events
+  * @param {String} repo Repo event to remove from Channel
+  * @see ChannelConfig#SetChannel
+  * @return {Promise&lt;ChannelConfig>}
+  */
+  DeleteRepo(channel, repo) {
+    return channelConfig.findOneAndRemove({
+      repo,
+    }).then(() => {
+      let oldRepos = this._data.find('channelId', channel);
+      let newRepos = oldRepos.slice(0, oldRepos.indexOf(repo));
+      return this.SetChannel(channel, 'repos', newRepos);
+    });
+  }
+}
 
 module.exports = new ChannelConfig();
 </code></pre>
@@ -279,7 +303,9 @@ module.exports = new ChannelConfig();
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.3</a> on Tue Apr 04 2017 17:21:36 GMT-0400 (EDT) using the LOKE theme.
+	<div align="right">
+    	<a href="https://github.com/jsdoc3/jsdoc">JSDoc3.4.3</a> | Minami
+	</div>
 </footer>
 
 <script>prettyPrint();</script>

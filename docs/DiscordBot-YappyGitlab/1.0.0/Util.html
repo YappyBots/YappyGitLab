@@ -9,12 +9,6 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
@@ -28,82 +22,49 @@
 
 <label for="nav-trigger" class="overlay"></label>
 
-<nav class="nav">
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a><ul class='methods'><li data-type='method'><a href="ChannelConfig.html#DeleteChannel">DeleteChannel</a></li><li data-type='method'><a href="ChannelConfig.html#DeleteRepo">DeleteRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindByChannel">FindByChannel</a></li><li data-type='method'><a href="ChannelConfig.html#FindByRepo">FindByRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindRepoInChannel">FindRepoInChannel</a></li><li data-type='method'><a href="ChannelConfig.html#SetChannel">SetChannel</a></li><li data-type='method'><a href="ChannelConfig.html#setup">setup</a></li></ul></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a><ul class='methods'><li data-type='method'><a href="ChannelConfigItem.html#deleteRepo">deleteRepo</a></li><li data-type='method'><a href="ChannelConfigItem.html#set">set</a></li></ul></li><li><a href="Command.html">Command</a><ul class='methods'><li data-type='method'><a href="Command.html#commandError">commandError</a></li><li data-type='method'><a href="Command.html#errorUsage">errorUsage</a></li><li data-type='method'><a href="Command.html#run">run</a></li><li data-type='method'><a href="Command.html#setConf">setConf</a></li><li data-type='method'><a href="Command.html#setHelp">setHelp</a></li></ul></li><li><a href="Gitlab.html">Gitlab</a><ul class='methods'><li data-type='method'><a href="Gitlab.html#getRepo">getRepo</a></li></ul></li><li><a href="Module.html">Module</a><ul class='methods'><li data-type='method'><a href="Module.html#init">init</a></li><li data-type='method'><a href="Module.html#moduleError">moduleError</a></li><li data-type='method'><a href="Module.html#run">run</a></li><li data-type='method'><a href="Module.html#textToEmbed">textToEmbed</a></li></ul></li><li><a href="Util.html">Util</a><ul class='methods'><li data-type='method'><a href="Util.html#MergeDefault">MergeDefault</a></li><li data-type='method'><a href="Util.html#Pad">Pad</a></li></ul></li></ul>
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a></li><li><a href="Client.html">Client</a></li><li><a href="Command.html">Command</a></li><li><a href="Gitlab.html">Gitlab</a></li><li><a href="Module.html">Module</a></li><li><a href="Util.html">Util</a></li></ul><h3>TypeDefs</h3><ul><li><a href="global.html#ChannelConfigSchema">ChannelConfigSchema</a></li><li><a href="global.html#ClientOptions">ClientOptions</a></li><li><a href="global.html#CommandConfig">CommandConfig</a></li><li><a href="global.html#CommandHelp">CommandHelp</a></li></ul><h3>Externals</h3><ul><li><a href="external-Channel.html">Channel</a></li><li><a href="external-Client.html">Client</a></li><li><a href="external-ClientOptions.html">ClientOptions</a></li><li><a href="external-Collection.html">Collection</a></li><li><a href="external-ColorResolvable.html">ColorResolvable</a></li><li><a href="external-Message.html">Message</a></li><li><a href="external-RichEmbed.html">RichEmbed</a></li></ul>
 </nav>
 
 <div id="main">
     
-    <h1 class="page-title">Util</h1>
+
     
-
-    <!--container.tmpl-->
-
 
 
 
 
 <section>
 
-
-
-<header data-tmpl="container.tmpl">
+<header>
+	
     
         <h2>
         Util
         </h2>
         
-            <div class="lead"><p>Some utilities :)</p></div>
+            <div class="class-description"><p>Some utilities :)</p></div>
         
     
-
-    
-      <div class="bs-callout bs-callout-default">
-        <h5>Members</h5>
-        <br />
-        <dl class="dl-horizontal methods-members">
-        <dt>Methods</dt><dd><ul>
-            <li><a href="#MergeDefault">MergeDefault</a></li>
-            
-            <li><a href="#Pad">Pad</a></li>
-            </ul></dd></dl></div>
 </header>
 
 <article>
     <div class="container-overview">
     
-        <!--method.tmpl-->
-<div class="method-details">
-
-
-
-
+        
 
     
-    <h3 class="constructor">Constructor</h3>
-    
-
-    
-      <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Util_index.js.html">index.js</a>:<a href="Util_index.js.html#line7">7</a>
-  </code>
-</div>
-
+    <h2>Constructor</h2>
     
 
     <h4 class="name" id="Util">
-      <a href="#params-Util"><span class="type-signature"></span>new Util</a><span class="signature">()</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>new <a href='#Util' style='color: black'>Util</a><span class="signature">()</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 
 
@@ -117,27 +78,7 @@
 
 
 
-
-
-
-
-
-<div class="collapse_" id="methodCollapse-Util">
-
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
+<dl class="details">
 
     
 
@@ -155,6 +96,19 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Util_index.js.html">Util/index.js</a>, <a href="Util_index.js.html#line7">line 7</a>
+    </li></ul></dd>
     
 
     
@@ -178,28 +132,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n * Some utilities :)\n */","meta":{"range":[108,629],"filename":"index.js","lineno":7,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Util","code":{"id":"astnode100011900","name":"Util","type":"ClassDeclaration","paramnames":[]},"shortpath":"Util/index.js"},"classdesc":"<p>Some utilities :)</p>","name":"Util","longname":"Util","kind":"class","scope":"global","___id":"T000003R000007","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"Util","signature":"<span class=\"signature\">()</span><span class=\"type-signature\"></span>","ancestors":[]}
-</pre>
--->
 </div>
 
     
     </div>
+
+    
 
     
 
@@ -214,49 +152,22 @@
     
 
     
+	
         <h3 class="subsection-title">Methods</h3>
-
+	
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Util_index.js.html">index.js</a>:<a href="Util_index.js.html#line23">23</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="MergeDefault">
-      <a href="#params-MergeDefault"><span class="type-signature"></span>MergeDefault</a><span class="signature">(def, given)</span><span class="type-signature"> &rarr; {Object}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#MergeDefault' style='color: black'>MergeDefault</a><span class="signature">(<span class="param-types">def: Object</span>, <span class="param-types">given: Object</span>)</span><span class="type-signature"> &rarr; Object</span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Merge an object with a defaults object</p>
@@ -269,61 +180,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-MergeDefault">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-MergeDefault" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -351,7 +212,8 @@
             <td class="type">
             
                 
-<span class="param-type">Object</span>
+<span class="param-type"><dd>Object</dd></span>
+
 
 
             
@@ -374,7 +236,8 @@
             <td class="type">
             
                 
-<span class="param-type">Object</span>
+<span class="param-type"><dd>Object</dd></span>
+
 
 
             
@@ -391,7 +254,50 @@
     </tbody>
 </table>
 
-  </div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Util_index.js.html">Util/index.js</a>, <a href="Util_index.js.html#line23">line 23</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -405,8 +311,9 @@
 
 
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+	
+		<b>Returns:</b>
+	
 
         
 <div class="param-desc">
@@ -415,77 +322,33 @@
 
 
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Object</span>
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Object</dd></span>
 
 
-    </dd>
-</dl>
-
-    
-</div>
-  
-
-
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n   * Merge an object with a defaults object\n   * @param {Object} def Default\n   * @param {Object} given Object given to merge with default\n   * @return {Object} Merged object\n   */","meta":{"range":[566,627],"filename":"index.js","lineno":23,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Util","code":{"id":"astnode100011914","name":"Util#MergeDefault","type":"MethodDefinition","paramnames":["args"]},"vars":{"":null},"shortpath":"Util/index.js"},"description":"<p>Merge an object with a defaults object</p>","params":[{"type":{"names":["Object"]},"description":"<p>Default</p>","name":"def"},{"type":{"names":["Object"]},"description":"<p>Object given to merge with default</p>","name":"given"}],"returns":[{"type":{"names":["Object"]},"description":"<p>Merged object</p>"}],"name":"MergeDefault","longname":"Util#MergeDefault","kind":"function","memberof":"Util","scope":"instance","___id":"T000002R001022","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"MergeDefault","signature":"<span class=\"signature\">(def, given)</span><span class=\"type-signature\"> &rarr; {Object}</span>","ancestors":["<a href=\"Util.html\">Util</a>#"]}
-</pre>
--->
-</div>
-
-        
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Util_index.js.html">index.js</a>:<a href="Util_index.js.html#line14">14</a>
-  </code>
-</div>
-
-
+</dd>
+</span>
 
 
     
+
+
+</div>
+
+        
+            
 
     
 
     <h4 class="name" id="Pad">
-      <a href="#params-Pad"><span class="type-signature"></span>Pad</a><span class="signature">(string, length)</span><span class="type-signature"> &rarr; {String}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#Pad' style='color: black'>Pad</a><span class="signature">(<span class="param-types">string: String</span>, <span class="param-types">length: Integer</span>)</span><span class="type-signature"> &rarr; String</span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Add padding to the right of a string</p>
@@ -498,61 +361,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-Pad">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-Pad" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -580,7 +393,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -603,7 +417,8 @@
             <td class="type">
             
                 
-<span class="param-type">Integer</span>
+<span class="param-type"><dd>Integer</dd></span>
+
 
 
             
@@ -620,7 +435,50 @@
     </tbody>
 </table>
 
-  </div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Util_index.js.html">Util/index.js</a>, <a href="Util_index.js.html#line14">line 14</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -634,8 +492,9 @@
 
 
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+	
+		<b>Returns:</b>
+	
 
         
 <div class="param-desc">
@@ -644,39 +503,21 @@
 
 
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">String</span>
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>String</dd></span>
 
 
-    </dd>
-</dl>
+</dd>
+</span>
+
 
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Add padding to the right of a string\n  * @param {String} string - The string to pad\n  * @param {Integer} length - Length of final string\n  * @return {String} The string with padding on the right\n  */","meta":{"range":[333,376],"filename":"index.js","lineno":14,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Util","code":{"id":"astnode100011903","name":"Util#Pad","type":"MethodDefinition","paramnames":["args"]},"vars":{"":null},"shortpath":"Util/index.js"},"description":"<p>Add padding to the right of a string</p>","params":[{"type":{"names":["String"]},"description":"<p>The string to pad</p>","name":"string"},{"type":{"names":["Integer"]},"description":"<p>Length of final string</p>","name":"length"}],"returns":[{"type":{"names":["String"]},"description":"<p>The string with padding on the right</p>"}],"name":"Pad","longname":"Util#Pad","kind":"function","memberof":"Util","scope":"instance","___id":"T000002R001021","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"Pad","signature":"<span class=\"signature\">(string, length)</span><span class=\"type-signature\"> &rarr; {String}</span>","ancestors":["<a href=\"Util.html\">Util</a>#"]}
-</pre>
--->
 </div>
 
         
-    
-
     
 
     
@@ -692,7 +533,9 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.3</a> on Tue Apr 04 2017 17:21:36 GMT-0400 (EDT) using the LOKE theme.
+	<div align="right">
+    	<a href="https://github.com/jsdoc3/jsdoc">JSDoc3.4.3</a> | Minami
+	</div>
 </footer>
 
 <script>prettyPrint();</script>

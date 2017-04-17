@@ -9,12 +9,6 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
@@ -28,94 +22,49 @@
 
 <label for="nav-trigger" class="overlay"></label>
 
-<nav class="nav">
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a><ul class='methods'><li data-type='method'><a href="ChannelConfig.html#DeleteChannel">DeleteChannel</a></li><li data-type='method'><a href="ChannelConfig.html#DeleteRepo">DeleteRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindByChannel">FindByChannel</a></li><li data-type='method'><a href="ChannelConfig.html#FindByRepo">FindByRepo</a></li><li data-type='method'><a href="ChannelConfig.html#FindRepoInChannel">FindRepoInChannel</a></li><li data-type='method'><a href="ChannelConfig.html#SetChannel">SetChannel</a></li><li data-type='method'><a href="ChannelConfig.html#setup">setup</a></li></ul></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a><ul class='methods'><li data-type='method'><a href="ChannelConfigItem.html#deleteRepo">deleteRepo</a></li><li data-type='method'><a href="ChannelConfigItem.html#set">set</a></li></ul></li><li><a href="Command.html">Command</a><ul class='methods'><li data-type='method'><a href="Command.html#commandError">commandError</a></li><li data-type='method'><a href="Command.html#errorUsage">errorUsage</a></li><li data-type='method'><a href="Command.html#run">run</a></li><li data-type='method'><a href="Command.html#setConf">setConf</a></li><li data-type='method'><a href="Command.html#setHelp">setHelp</a></li></ul></li><li><a href="Gitlab.html">Gitlab</a><ul class='methods'><li data-type='method'><a href="Gitlab.html#getRepo">getRepo</a></li></ul></li><li><a href="Module.html">Module</a><ul class='methods'><li data-type='method'><a href="Module.html#init">init</a></li><li data-type='method'><a href="Module.html#moduleError">moduleError</a></li><li data-type='method'><a href="Module.html#run">run</a></li><li data-type='method'><a href="Module.html#textToEmbed">textToEmbed</a></li></ul></li><li><a href="Util.html">Util</a><ul class='methods'><li data-type='method'><a href="Util.html#MergeDefault">MergeDefault</a></li><li data-type='method'><a href="Util.html#Pad">Pad</a></li></ul></li></ul>
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ChannelConfig.html">ChannelConfig</a></li><li><a href="ChannelConfigItem.html">ChannelConfigItem</a></li><li><a href="Client.html">Client</a></li><li><a href="Command.html">Command</a></li><li><a href="Gitlab.html">Gitlab</a></li><li><a href="Module.html">Module</a></li><li><a href="Util.html">Util</a></li></ul><h3>TypeDefs</h3><ul><li><a href="global.html#ChannelConfigSchema">ChannelConfigSchema</a></li><li><a href="global.html#ClientOptions">ClientOptions</a></li><li><a href="global.html#CommandConfig">CommandConfig</a></li><li><a href="global.html#CommandHelp">CommandHelp</a></li></ul><h3>Externals</h3><ul><li><a href="external-Channel.html">Channel</a></li><li><a href="external-Client.html">Client</a></li><li><a href="external-ClientOptions.html">ClientOptions</a></li><li><a href="external-Collection.html">Collection</a></li><li><a href="external-ColorResolvable.html">ColorResolvable</a></li><li><a href="external-Message.html">Message</a></li><li><a href="external-RichEmbed.html">RichEmbed</a></li></ul>
 </nav>
 
 <div id="main">
     
-    <h1 class="page-title">ChannelConfig</h1>
+
     
-
-    <!--container.tmpl-->
-
 
 
 
 
 <section>
 
-
-
-<header data-tmpl="container.tmpl">
+<header>
+	
     
         <h2>
         ChannelConfig
         </h2>
         
-            <div class="lead"><p>The Channel Config manager</p></div>
+            <div class="class-description"><p>The Channel Config manager</p></div>
         
     
-
-    
-      <div class="bs-callout bs-callout-default">
-        <h5>Members</h5>
-        <br />
-        <dl class="dl-horizontal methods-members">
-        <dt>Fields &amp; Properties</dt><dd><ul>
-            <li><a href="#_data">_data</a></li>
-            </ul></dd><dt>Methods</dt><dd><ul>
-            <li><a href="#DeleteChannel">DeleteChannel</a></li>
-            
-            <li><a href="#DeleteRepo">DeleteRepo</a></li>
-            
-            <li><a href="#FindByChannel">FindByChannel</a></li>
-            
-            <li><a href="#FindByRepo">FindByRepo</a></li>
-            
-            <li><a href="#FindRepoInChannel">FindRepoInChannel</a></li>
-            
-            <li><a href="#SetChannel">SetChannel</a></li>
-            
-            <li><a href="#setup">setup</a></li>
-            </ul></dd></dl></div>
 </header>
 
 <article>
     <div class="container-overview">
     
-        <!--method.tmpl-->
-<div class="method-details">
-
-
-
-
+        
 
     
-    <h3 class="constructor">Constructor</h3>
-    
-
-    
-      <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line63">63</a>
-  </code>
-</div>
-
+    <h2>Constructor</h2>
     
 
     <h4 class="name" id="ChannelConfig">
-      <a href="#params-ChannelConfig"><span class="type-signature"></span>new ChannelConfig</a><span class="signature">()</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>new <a href='#ChannelConfig' style='color: black'>ChannelConfig</a><span class="signature">()</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 
 
@@ -129,27 +78,7 @@
 
 
 
-
-
-
-
-
-<div class="collapse_" id="methodCollapse-ChannelConfig">
-
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
+<dl class="details">
 
     
 
@@ -167,6 +96,19 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line77">line 77</a>
+    </li></ul></dd>
     
 
     
@@ -190,28 +132,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n* The Channel Config manager\n*/","meta":{"range":[1361,6052],"filename":"ChannelConfig.js","lineno":63,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Models","code":{"id":"astnode100010298","name":"ChannelConfig","type":"ClassDeclaration","paramnames":[]},"shortpath":"Models/ChannelConfig.js"},"classdesc":"<p>The Channel Config manager</p>","name":"ChannelConfig","longname":"ChannelConfig","kind":"class","scope":"global","params":[],"___id":"T000003R000002","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"ChannelConfig","signature":"<span class=\"signature\">()</span><span class=\"type-signature\"></span>","ancestors":[]}
-</pre>
--->
 </div>
 
     
     </div>
+
+    
 
     
 
@@ -224,31 +150,13 @@
     
 
     
-        <h3 class="subsection-title">Members</h3>
+        <h3 class="subsection-title">Properties</h3>
 
         
-            <!--members.tmpl-->
-<div class="member-details">
+            
+<h4 class="name" id="_data">.<a href='#_data' style='color: black'>_data</a><span class="type-signature">: Collection</span></h4>
 
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line70">70</a>
-  </code>
-</div>
-
-
-
-<h4 class="name" id="_data">
-  <span class="type-signature">(private) </span>_data<span class="type-signature"> :Collection</span>
-</h4>
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 
 
@@ -257,20 +165,18 @@
 </div>
 
 
-<div>
 
-<!-- details.tmpl -->
-
-
+    <b>Type:</b> 
+<span class="param-type"><dd>Collection</dd></span>
 
 
 
 
 
 
-<dl class="dl-horizontal">
 
-    
+
+<dl class="details">
 
     
 
@@ -286,6 +192,21 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line84">line 84</a>
+    </li></ul></dd>
     
 
     
@@ -299,66 +220,31 @@
 
 
 
-
-
-
-
-
-
-</div>
-
 </div>
 
         
     
 
     
+	
         <h3 class="subsection-title">Methods</h3>
-
+	
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line136">136</a>
-  </code>
-</div>
-
-
-
+            
 
     
 
-    
-
-    <h4 class="name" id="DeleteChannel">
-      <a href="#params-DeleteChannel"><span class="type-signature"></span>DeleteChannel</a><span class="signature">(channel)</span><span class="type-signature"> &rarr; {<a href="ChannelConfig.html">ChannelConfig</a>}</span>
-
-    </h4>
+    <h4 class="name" id="AddChannel">
+		<span class="type-signature"></span>.<a href='#AddChannel' style='color: black'>AddChannel</a><span class="signature">(<span class="param-types">channel: <a href="external-Channel.html">Channel</a></span>)</span><span class="type-signature"> &rarr; Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
-    <p>Delete all repo events from channel</p>
+    <p>Add channel to config</p>
 </div>
 
 
@@ -368,61 +254,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-DeleteChannel">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-DeleteChannel" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -450,7 +286,341 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd><a href="external-Channel.html">Channel</a></dd></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Channel to add repo events</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line179">line 179</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></dd></span>
+
+
+</dd>
+</span>
+
+
+    
+
+
+</div>
+
+        
+            
+
+    
+
+    <h4 class="name" id="AddRepoToChannel">
+		<span class="type-signature"></span>.<a href='#AddRepoToChannel' style='color: black'>AddRepoToChannel</a><span class="signature">(<span class="param-types">channel: <a href="external-Channel.html">Channel</a></span>, <span class="param-types">repo: String</span>)</span><span class="type-signature"> &rarr; Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></span>
+	</h4>
+
+    
+
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+<div class="description">
+    <p>Add repo to channel</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>channel</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd><a href="external-Channel.html">Channel</a></dd></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Channel to add repo to</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>repo</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>repo to add to channel</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line228">line 228</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-see"><b>See:</b> <a href="ChannelConfig.html#SetChannel">ChannelConfig#SetChannel</a></dt>
+	<dd class="tag-see">&#8203;</dd>
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></dd></span>
+
+
+</dd>
+</span>
+
+
+    
+
+
+</div>
+
+        
+            
+
+    
+
+    <h4 class="name" id="DeleteChannel">
+		<span class="type-signature"></span>.<a href='#DeleteChannel' style='color: black'>DeleteChannel</a><span class="signature">(<span class="param-types">channel: String</span>)</span><span class="type-signature"> &rarr; Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></span>
+	</h4>
+
+    
+
+
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
+
+<div class="description">
+    <p>Delete all repo events from channel</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>channel</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -467,97 +637,97 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type"><a href="ChannelConfig.html">ChannelConfig</a></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line163">line 163</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Delete all repo events from channel\n  * @param {String} channel Channel with the events to delete\n  * @return {ChannelConfig}\n  */","meta":{"range":[3624,3910],"filename":"ChannelConfig.js","lineno":136,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Models","code":{"id":"astnode100010617","name":"ChannelConfig#DeleteChannel","type":"MethodDefinition","paramnames":["channel"]},"vars":{"":null},"shortpath":"Models/ChannelConfig.js"},"description":"<p>Delete all repo events from channel</p>","params":[{"type":{"names":["String"]},"description":"<p>Channel with the events to delete</p>","name":"channel"}],"returns":[{"type":{"names":["ChannelConfig"]}}],"name":"DeleteChannel","longname":"ChannelConfig#DeleteChannel","kind":"function","memberof":"ChannelConfig","scope":"instance","___id":"T000002R000899","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"DeleteChannel","signature":"<span class=\"signature\">(channel)</span><span class=\"type-signature\"> &rarr; {<a href=\"ChannelConfig.html\">ChannelConfig</a>}</span>","ancestors":["<a href=\"ChannelConfig.html\">ChannelConfig</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line152">152</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="DeleteRepo">
-      <a href="#params-DeleteRepo"><span class="type-signature"></span>DeleteRepo</a><span class="signature">(channel, repo)</span><span class="type-signature"> &rarr; {<a href="ChannelConfig.html">ChannelConfig</a>}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#DeleteRepo' style='color: black'>DeleteRepo</a><span class="signature">(<span class="param-types">channel: String</span>, <span class="param-types">repo: String</span>)</span><span class="type-signature"> &rarr; Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Delete repo events from specific channel</p>
@@ -570,61 +740,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-DeleteRepo">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-DeleteRepo" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -652,7 +772,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -675,7 +796,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -692,97 +814,100 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type"><a href="ChannelConfig.html">ChannelConfig</a></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line243">line 243</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-see"><b>See:</b> <a href="ChannelConfig.html#SetChannel">ChannelConfig#SetChannel</a></dt>
+	<dd class="tag-see">&#8203;</dd>
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Delete repo events from specific channel\n  * @param {String} channel Channel with the repo events\n  * @param {String} repo Repo event to remove from Channel\n  * @return {ChannelConfig}\n  */","meta":{"range":[4113,4410],"filename":"ChannelConfig.js","lineno":152,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Models","code":{"id":"astnode100010667","name":"ChannelConfig#DeleteRepo","type":"MethodDefinition","paramnames":["channel","repo"]},"vars":{"":null},"shortpath":"Models/ChannelConfig.js"},"description":"<p>Delete repo events from specific channel</p>","params":[{"type":{"names":["String"]},"description":"<p>Channel with the repo events</p>","name":"channel"},{"type":{"names":["String"]},"description":"<p>Repo event to remove from Channel</p>","name":"repo"}],"returns":[{"type":{"names":["ChannelConfig"]}}],"name":"DeleteRepo","longname":"ChannelConfig#DeleteRepo","kind":"function","memberof":"ChannelConfig","scope":"instance","___id":"T000002R000904","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"DeleteRepo","signature":"<span class=\"signature\">(channel, repo)</span><span class=\"type-signature\"> &rarr; {<a href=\"ChannelConfig.html\">ChannelConfig</a>}</span>","ancestors":["<a href=\"ChannelConfig.html\">ChannelConfig</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line119">119</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="FindByChannel">
-      <a href="#params-FindByChannel"><span class="type-signature"></span>FindByChannel</a><span class="signature">(channel)</span><span class="type-signature"> &rarr; {<a href="ChannelConfigItem.html">ChannelConfigItem</a>}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#FindByChannel' style='color: black'>FindByChannel</a><span class="signature">(<span class="param-types">channel: String</span>)</span><span class="type-signature"> &rarr; <a href="ChannelConfigItem.html">ChannelConfigItem</a></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Find events for channel</p>
@@ -795,61 +920,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-FindByChannel">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-FindByChannel" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -877,7 +952,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -894,97 +970,97 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type"><a href="ChannelConfigItem.html">ChannelConfigItem</a></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line144">line 144</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd><a href="ChannelConfigItem.html">ChannelConfigItem</a></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Find events for channel\n  * @param {String} channel Channel (ID) with the events\n  * @return {ChannelConfigItem}\n  */","meta":{"range":[3083,3161],"filename":"ChannelConfig.js","lineno":119,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Models","code":{"id":"astnode100010575","name":"ChannelConfig#FindByChannel","type":"MethodDefinition","paramnames":["channel"]},"vars":{"":null},"shortpath":"Models/ChannelConfig.js"},"description":"<p>Find events for channel</p>","params":[{"type":{"names":["String"]},"description":"<p>Channel (ID) with the events</p>","name":"channel"}],"returns":[{"type":{"names":["ChannelConfigItem"]}}],"name":"FindByChannel","longname":"ChannelConfig#FindByChannel","kind":"function","memberof":"ChannelConfig","scope":"instance","___id":"T000002R000896","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"FindByChannel","signature":"<span class=\"signature\">(channel)</span><span class=\"type-signature\"> &rarr; {<a href=\"ChannelConfigItem.html\">ChannelConfigItem</a>}</span>","ancestors":["<a href=\"ChannelConfig.html\">ChannelConfig</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line110">110</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="FindByRepo">
-      <a href="#params-FindByRepo"><span class="type-signature"></span>FindByRepo</a><span class="signature">(repo)</span><span class="type-signature"> &rarr; {<a href="ChannelConfigItem.html">ChannelConfigItem</a>}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#FindByRepo' style='color: black'>FindByRepo</a><span class="signature">(<span class="param-types">repo: String</span>)</span><span class="type-signature"> &rarr; <a href="ChannelConfigItem.html">ChannelConfigItem</a></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Find channels with events for repo</p>
@@ -997,61 +1073,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-FindByRepo">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-FindByRepo" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -1079,7 +1105,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -1096,97 +1123,97 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type"><a href="ChannelConfigItem.html">ChannelConfigItem</a></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line135">line 135</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd><a href="ChannelConfigItem.html">ChannelConfigItem</a></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Find channels with events for repo\n  * @param {String} repo Repo for the events\n  * @return {ChannelConfigItem}\n  */","meta":{"range":[2828,2952],"filename":"ChannelConfig.js","lineno":110,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Models","code":{"id":"astnode100010541","name":"ChannelConfig#FindByRepo","type":"MethodDefinition","paramnames":["repo"]},"vars":{"":null},"shortpath":"Models/ChannelConfig.js"},"description":"<p>Find channels with events for repo</p>","params":[{"type":{"names":["String"]},"description":"<p>Repo for the events</p>","name":"repo"}],"returns":[{"type":{"names":["ChannelConfigItem"]}}],"name":"FindByRepo","longname":"ChannelConfig#FindByRepo","kind":"function","memberof":"ChannelConfig","scope":"instance","___id":"T000002R000894","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"FindByRepo","signature":"<span class=\"signature\">(repo)</span><span class=\"type-signature\"> &rarr; {<a href=\"ChannelConfigItem.html\">ChannelConfigItem</a>}</span>","ancestors":["<a href=\"ChannelConfig.html\">ChannelConfig</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line128">128</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="FindRepoInChannel">
-      <a href="#params-FindRepoInChannel"><span class="type-signature"></span>FindRepoInChannel</a><span class="signature">(channel, repo)</span><span class="type-signature"> &rarr; {<a href="ChannelConfigItem.html">ChannelConfigItem</a>}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#FindRepoInChannel' style='color: black'>FindRepoInChannel</a><span class="signature">(<span class="param-types">channel: String</span>, <span class="param-types">repo: String</span>)</span><span class="type-signature"> &rarr; <a href="ChannelConfigItem.html">ChannelConfigItem</a></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Find channels with events for repo</p>
@@ -1199,61 +1226,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-FindRepoInChannel">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-FindRepoInChannel" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -1281,7 +1258,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -1304,7 +1282,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -1321,100 +1300,236 @@
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type"><a href="ChannelConfigItem.html">ChannelConfigItem</a></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line154">line 154</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd><a href="ChannelConfigItem.html">ChannelConfigItem</a></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Find channels with events for repo\n  * @param {String} channel Channel (ID) with the repo's events\n  * @param {String} repo Repo to check in channel\n  * @return {ChannelConfigItem}\n  */","meta":{"range":[3360,3480],"filename":"ChannelConfig.js","lineno":128,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Models","code":{"id":"astnode100010589","name":"ChannelConfig#FindRepoInChannel","type":"MethodDefinition","paramnames":["channel","repo"]},"vars":{"":null},"shortpath":"Models/ChannelConfig.js"},"description":"<p>Find channels with events for repo</p>","params":[{"type":{"names":["String"]},"description":"<p>Channel (ID) with the repo's events</p>","name":"channel"},{"type":{"names":["String"]},"description":"<p>Repo to check in channel</p>","name":"repo"}],"returns":[{"type":{"names":["ChannelConfigItem"]}}],"name":"FindRepoInChannel","longname":"ChannelConfig#FindRepoInChannel","kind":"function","memberof":"ChannelConfig","scope":"instance","___id":"T000002R000897","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"FindRepoInChannel","signature":"<span class=\"signature\">(channel, repo)</span><span class=\"type-signature\"> &rarr; {<a href=\"ChannelConfigItem.html\">ChannelConfigItem</a>}</span>","ancestors":["<a href=\"ChannelConfig.html\">ChannelConfig</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
+            
+
+    
+
+    <h4 class="name" id="init">
+		<span class="type-signature"></span>.<a href='#init' style='color: black'>init</a><span class="signature">(<span class="param-types">bot: <a href="external-Client.html">Client</a></span>)</span><span class="type-signature"></span>
+	</h4>
+
+    
 
 
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line167">167</a>
-  </code>
+<div class="description">
+    <p>Initialize configuration and Discord bot events</p>
 </div>
 
 
 
 
+
+
+
+
+
+    <h5>Parameters:</h5>
     
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>bot</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd><a href="external-Client.html">Client</a></dd></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line108">line 108</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+        
+            
 
     
 
     <h4 class="name" id="SetChannel">
-      <a href="#params-SetChannel"><span class="type-signature"></span>SetChannel</a><span class="signature">(channel, repo)</span><span class="type-signature"> &rarr; {<a href="ChannelConfig.html">ChannelConfig</a>}</span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#SetChannel' style='color: black'>SetChannel</a><span class="signature">(<span class="param-types">channel: String</span>, <span class="param-types">prop: String</span>, <span class="param-types">value: String</span>)</span><span class="type-signature"> &rarr; Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
-    <p>Delete repo events from specific channel</p>
+    <p>Replace specific channel config prop with value</p>
 </div>
 
 
@@ -1424,61 +1539,11 @@
 
 
 
-<div class="collapse_" id="methodCollapse-SetChannel">
 
-  
-
-  
-
-<!-- details.tmpl -->
-
-
-
-
-
-
-
-
-<dl class="dl-horizontal">
-
+    <h5>Parameters:</h5>
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-  <div id="params-SetChannel" class="bs-callout bs-callout-primary">
-    <h5>Parameters</h5>
-    <!--params.tmpl-->
-
-
-<table class="table table-bordered">
+<table class="params">
     <thead>
     <tr>
         
@@ -1506,7 +1571,8 @@
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -1523,13 +1589,14 @@
 
         <tr>
             
-                <td class="name"><code>repo</code></td>
+                <td class="name"><code>prop</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">String</span>
+<span class="param-type"><dd>String</dd></span>
+
 
 
             
@@ -1539,104 +1606,132 @@
 
             
 
-            <td class="description last"><p>Repo event to remove from Channel</p></td>
+            <td class="description last"><p>Property to set</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><dd>String</dd></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Value to set property to</p></td>
         </tr>
 
     
     </tbody>
 </table>
 
-  </div>
 
 
 
 
 
+<dl class="details">
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
+    
 
-  <div class="bs-callout bs-callout-success">
-    <h5>Returns </h5>
+    
 
-        
+    
 
+    
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type"><a href="ChannelConfig.html">ChannelConfig</a></span>
+    
 
+    
 
-    </dd>
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line204">line 204</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
 </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<b>Returns:</b>
+	
+
+        
+<div class="param-desc">
+    <p>updated config item</p>
+</div>
+
+
+
+<span class="param-type">
+	<dd>
+<span class="param-type"><dd>Promise&lt;<a href="ChannelConfig.html">ChannelConfig</a>></dd></span>
+
+
+</dd>
+</span>
+
+
     
-</div>
-  
 
 
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Delete repo events from specific channel\n  * @param {String} channel Channel with the repo events\n  * @param {String} repo Repo event to remove from Channel\n  * @return {ChannelConfig}\n  */","meta":{"range":[4613,5116],"filename":"ChannelConfig.js","lineno":167,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Models","code":{"id":"astnode100010718","name":"ChannelConfig#SetChannel","type":"MethodDefinition","paramnames":["channel","prop","value"]},"vars":{"":null},"shortpath":"Models/ChannelConfig.js"},"description":"<p>Delete repo events from specific channel</p>","params":[{"type":{"names":["String"]},"description":"<p>Channel with the repo events</p>","name":"channel"},{"type":{"names":["String"]},"description":"<p>Repo event to remove from Channel</p>","name":"repo"}],"returns":[{"type":{"names":["ChannelConfig"]}}],"name":"SetChannel","longname":"ChannelConfig#SetChannel","kind":"function","memberof":"ChannelConfig","scope":"instance","___id":"T000002R000908","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"SetChannel","signature":"<span class=\"signature\">(channel, repo)</span><span class=\"type-signature\"> &rarr; {<a href=\"ChannelConfig.html\">ChannelConfig</a>}</span>","ancestors":["<a href=\"ChannelConfig.html\">ChannelConfig</a>#"]}
-</pre>
--->
 </div>
 
         
-            <!--method.tmpl-->
-<div class="method-details">
-
-
-
-  <!--source-link.tmpl-->
-
-
-<div class="pull-right source-link-container">
-  <code class="source-link" data-tmpl="method-tmpl(1)">
-    <i class="fa fa-file-o"></i>
-    <a href="Models_ChannelConfig.js.html">ChannelConfig.js</a>:<a href="Models_ChannelConfig.js.html#line76">76</a>
-  </code>
-</div>
-
-
-
-
-    
+            
 
     
 
     <h4 class="name" id="setup">
-      <a href="#params-setup"><span class="type-signature"></span>setup</a><span class="signature">()</span><span class="type-signature"></span>
-
-    </h4>
+		<span class="type-signature"></span>.<a href='#setup' style='color: black'>setup</a><span class="signature">()</span><span class="type-signature"></span>
+	</h4>
 
     
 
 
-
-
-
-
-
-
-
-
-
-
+<div style="border-left: solid #e6e6e6; padding-left: 10px">
 
 <div class="description">
     <p>Get config from database and add to this._data</p>
@@ -1649,22 +1744,12 @@
 
 
 
-<div class="collapse_" id="methodCollapse-setup">
-
-  
-
-  
-
-<!-- details.tmpl -->
 
 
 
 
 
-
-
-
-<dl class="dl-horizontal">
+<dl class="details">
 
     
 
@@ -1682,6 +1767,19 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="Models_ChannelConfig.js.html">Models/ChannelConfig.js</a>, <a href="Models_ChannelConfig.js.html#line97">line 97</a>
+    </li></ul></dd>
     
 
     
@@ -1705,29 +1803,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<!--
-<pre>
-{"comment":"/**\n  * Get config from database and add to this._data\n  */","meta":{"range":[1598,1783],"filename":"ChannelConfig.js","lineno":76,"path":"/Users/david/Web Development with Node & Express/Discord Bot - Yappy Gitlab/lib/Models","code":{"id":"astnode100010317","name":"ChannelConfig#setup","type":"MethodDefinition","paramnames":[]},"vars":{"":null},"shortpath":"Models/ChannelConfig.js"},"description":"<p>Get config from database and add to this._data</p>","name":"setup","longname":"ChannelConfig#setup","kind":"function","memberof":"ChannelConfig","scope":"instance","params":[],"___id":"T000002R000889","___s":true,"attribs":"<span class=\"type-signature\"></span>","id":"setup","signature":"<span class=\"signature\">()</span><span class=\"type-signature\"></span>","ancestors":["<a href=\"ChannelConfig.html\">ChannelConfig</a>#"]}
-</pre>
--->
 </div>
 
         
-    
-
     
 
     
@@ -1743,7 +1821,9 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.3</a> on Tue Apr 04 2017 17:21:36 GMT-0400 (EDT) using the LOKE theme.
+	<div align="right">
+    	<a href="https://github.com/jsdoc3/jsdoc">JSDoc3.4.3</a> | Minami
+	</div>
 </footer>
 
 <script>prettyPrint();</script>
