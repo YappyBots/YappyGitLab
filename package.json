@@ -25,6 +25,7 @@
     "discord.js": "hydrabolt/discord.js",
     "erlpack": "hammerandchisel/erlpack",
     "express": "^4.15.2",
+    "hbs": "^4.0.1",
     "moment": "^2.18.1",
     "moment-duration-format": "^1.3.0",
     "mongoose": "^4.9.5",
