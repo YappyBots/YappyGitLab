@@ -23,6 +23,15 @@
   .description {
     width: 96%;
   }
+  .column.image img {
+    margin-left: 2.5%;
+    width: 97.5%;
+  }
+  .nav-left.title {
+    overflow: visible !important;
+    width: auto !important;
+    padding-left: 2px;
+  }
   </style>
 </head>
 <body>
@@ -36,9 +45,9 @@
             </div>
             <div class="nav-right nav-menu">
               <span class="nav-item">
+                <i class="fa fa-circle" style="color: {{statusColor}};" aria-hidden="true"></i>&nbsp;
                 {{status}}
               </span>
-              <span class="nav-item"></span>
               <span class="nav-item">
                 <a class="button is-default" href="https://discordapp.com/oauth2/authorize?permissions=67193856&scope=bot&client_id=303661490114789391">
                   Invite
@@ -53,7 +62,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="columns is-vcentered">
-          <div class="column is-5">
+          <div class="column is-5 image">
             <figure class="image is-4by3">
               <img src="http://placehold.it/375x300" class="promo-img" alt="Yappy Gitlab Screenshot">
             </figure>
