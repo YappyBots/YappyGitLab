@@ -56,8 +56,4 @@ git add .
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 git commit -m "Docs build for ${SOURCE_TYPE} ${SOURCE}: ${SHA}" || true
-git push -q $SSH_REPO $TARGET_BRANCH &> /dev/null
-
-# Clean up...
-cd ..
-rm -rf out
+git push -q $SSH_REPO $TARGET_BRANCH > /dev/null
