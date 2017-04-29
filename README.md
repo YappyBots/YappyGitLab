@@ -3,7 +3,7 @@
 _**WORK IN PROGRESS**_
 Monitor your GitLab repos by adding this bot to your server, set up a channel for it, and don't miss any events!
 
-[![Online Users in Yappy's Discord Server](https://discordapp.com/api/guilds/231548941492027393/embed.png)](https://discord.gg/HHqndMG)
+[![Online Users in Yappy Discord Server](https://discordapp.com/api/guilds/231548941492027393/embed.png)](https://discord.gg/HHqndMG)
 
 ### Help
 
