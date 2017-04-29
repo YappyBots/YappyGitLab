@@ -38,12 +38,6 @@ else
   SOURCE_TYPE="branch"
 fi
 
-# For Node != 6, only run tests
-if [ "$TRAVIS_NODE_VERSION" != "6" ]; then
-  echo -e "\e[36m\e[1mBuild triggered with Node v${TRAVIS_NODE_VERSION} - only running tests."
-  tests
-fi
-
 build
 
 # Initialise some useful variables
