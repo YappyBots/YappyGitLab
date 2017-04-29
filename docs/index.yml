@@ -1,0 +1,4 @@
+- name: General
+  files:
+    - name: Test
+      path: test.md
