@@ -1,4 +1,6 @@
 - name: General
   files:
-    - name: Test
-      path: test.md
+    - name: Welcome
+      path: welcome.md
+    - name: Setting Up
+      path: settingup.md
