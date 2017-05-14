@@ -1,3 +1,17 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/datitisev/DiscordBot-Yappy/compare/v1.0.0...v1.0.1) (2017-05-14)
+
+
+### Bug Fixes
+
+* **dependencies:** update mongoose[@4](https://github.com/4).9.9 ([610dfcb](https://github.com/datitisev/DiscordBot-Yappy/commit/610dfcb))
+* **snyk:** run `snyk wizard` and fix a few vulnerabilities ([14f7469](https://github.com/datitisev/DiscordBot-Yappy/commit/14f7469))
+* **snyk:** run `snyk wizard` once again ([e10173d](https://github.com/datitisev/DiscordBot-Yappy/commit/e10173d))
+* **web:** add error handling and log error ([b52f33d](https://github.com/datitisev/DiscordBot-Yappy/commit/b52f33d))
+* **web:** fix channels with repo handling, expected `channelId` instead of `channelID` ([5489e09](https://github.com/datitisev/DiscordBot-Yappy/commit/5489e09))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2017-05-13)
 
