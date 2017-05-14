@@ -1,8 +1,27 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.7.1
-ignore: {}
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:shelljs:20140723':
+    - discord.js-docgen > eslint > shelljs:
+        reason: None given
+        expires: '2017-06-13T13:37:38.326Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:ms:20151024':
     - node-gitlab > restful-client > debug > ms:
         patched: '2017-03-06T21:17:01.761Z'
+  'npm:handlebars:20151207':
+    - discord.js-docgen > jsdoc-to-markdown > dmd > handlebars:
+        patched: '2017-05-14T13:37:02.570Z'
+  'npm:marked:20170112':
+    - discord.js-docgen > jsdoc-to-markdown > dmd > marked:
+        patched: '2017-05-14T13:37:02.570Z'
+    - discord.js-docgen > jsdoc-to-markdown > jsdoc-api > jsdoc-75lb > marked:
+        patched: '2017-05-14T13:37:02.570Z'
+  'npm:uglify-js:20150824':
+    - discord.js-docgen > jsdoc-to-markdown > dmd > handlebars > uglify-js:
+        patched: '2017-05-14T13:37:02.570Z'
+  'npm:uglify-js:20151024':
+    - discord.js-docgen > jsdoc-to-markdown > dmd > handlebars > uglify-js:
+        patched: '2017-05-14T13:37:02.570Z'
