@@ -14,7 +14,7 @@
     "test": "snyk test"
   },
   "repository": {
-    "url": "https://github.com/datitisev/DiscordBot-Yappy",
+    "url": "https://github.com/YappyBots/YappyGitLab",
     "type": "git"
   },
   "author": "David Sevilla Martin <dsevilla192@icloud.com>",
