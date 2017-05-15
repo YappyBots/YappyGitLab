@@ -1,5 +1,5 @@
-<a name="Unreleased"></a>
-# [Unreleased](https://github.com/YappyBots/YappyGitLab/compare/v1.0.1...e3a36b1) (2017-05-15)
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/YappyBots/YappyGitLab/compare/v1.0.1...v1.0.2) (2017-05-15)
 
 
 ### Bug Fixes
