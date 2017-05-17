@@ -1,3 +1,15 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/YappyBots/YappyGitLab/compare/v1.0.2...v1.0.3) (2017-05-17)
+
+
+### Bug Fixes
+
+* **discord: commands:** conf: add disabled events config to `GL! conf` ([1254653](https://github.com/YappyBots/YappyGitLab/commit/1254653)), closes [#9](https://github.com/YappyBots/YappyGitLab/issues/9)
+* **discord: commands:** conf: show name of property in field view ([6441cc2](https://github.com/YappyBots/YappyGitLab/commit/6441cc2)), closes [#10](https://github.com/YappyBots/YappyGitLab/issues/10)
+* **discord: commands:** init: fix command to enable embed in success msg ([4f7ea84](https://github.com/YappyBots/YappyGitLab/commit/4f7ea84)), closes [#8](https://github.com/YappyBots/YappyGitLab/issues/8)
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/YappyBots/YappyGitLab/compare/v1.0.1...v1.0.2) (2017-05-15)
 
