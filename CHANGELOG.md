@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/YappyBots/YappyGitLab/compare/v1.0.3...v1.1.0) (2017-05-22)
+
+
+### Features
+
+* **gitlab: events:** add ability to ignore branch(es) & user(s) via conf ([6d572c1](https://github.com/YappyBots/YappyGitLab/commit/6d572c1)), closes [#11](https://github.com/YappyBots/YappyGitLab/issues/11) [#12](https://github.com/YappyBots/YappyGitLab/issues/12)
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/YappyBots/YappyGitLab/compare/v1.0.2...v1.0.3) (2017-05-17)
 
