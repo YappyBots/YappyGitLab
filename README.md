@@ -23,7 +23,7 @@ __**Github**__:
   - `issue <number>` - gives info about that specific issue in the channel repo
   - `mr list [p#]` - list merge requests by any field in the channel repo
   - `mr <number>` - gives info about that specific merge request in the channel repo
-  <!-- - `release <query>` - gives info about a release that matches that query in its tag in the channel repo --!>
+  <!-- - `release <query>` - gives info about a release that matches that query in its tag in the channel repo -->
 
 __**Admin**__:
   - `conf [view]` - views the channel's config
