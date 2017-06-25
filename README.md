@@ -4,9 +4,10 @@ Monitor your GitLab repos by adding this bot to your server, set up a channel fo
 
 [![Online Users in Yappy's Discord Server](https://discordapp.com/api/guilds/231548941492027393/embed.png)](https://discord.gg/HHqndMG)
 
-### Help
+### Info
 
 Join our Discord server at https://discord.gg/HHqndMG
+Invite the bot at http://bit.ly/DiscordYappyGitlab
 
 ### Commands
 Prefixes are `GL! ` (with space), custom prefix set up, or mention the bot.
