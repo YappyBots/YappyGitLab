@@ -1,3 +1,15 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/YappyBots/YappyGitLab/compare/v1.1.0...v1.1.1) (2017-07-13)
+
+
+### Bug Fixes
+
+* **discord:** remove CHANNEL_CREATE from disabled events ffs ([b656754](https://github.com/YappyBots/YappyGitLab/commit/b656754))
+* **gitlab: events:** fix event handler author icon_url erroring ([9c03f81](https://github.com/YappyBots/YappyGitLab/commit/9c03f81))
+* **web:** fix disabledEvents looking for event name rather than shortname ([4dac4aa](https://github.com/YappyBots/YappyGitLab/commit/4dac4aa))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/YappyBots/YappyGitLab/compare/v1.0.3...v1.1.0) (2017-05-22)
 
@@ -106,3 +118,6 @@
 * **command:** remove `async` from init command ([6dcd12c](https://github.com/YappyBots/YappyGitLab/commit/6dcd12c))
 * **gitlab: emitting:** only generate event embed & text once per webhook ([4ce70dd](https://github.com/YappyBots/YappyGitLab/commit/4ce70dd))
 * **gitlab: events:** update issue/* & note/commit - remove string creation on embed descriptions ([360d7b8](https://github.com/YappyBots/YappyGitLab/commit/360d7b8))
+
+
+
