@@ -1,3 +1,13 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/YappyBots/YappyGitLab/compare/v1.1.1...v1.1.2) (2017-07-15)
+
+
+### Bug Fixes
+
+* **models: channelconfig:** fix ChannelConfig#setChannel setting map w/ undefined property ([35aebc7](https://github.com/YappyBots/YappyGitLab/commit/35aebc7))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/YappyBots/YappyGitLab/compare/v1.1.0...v1.1.1) (2017-07-13)
 
