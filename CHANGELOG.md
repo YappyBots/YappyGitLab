@@ -1,3 +1,13 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/YappyBots/YappyGitLab/compare/v1.2.0...v1.2.1) (2017-07-16)
+
+
+### Bug Fixes
+
+* **gitlab:** fix undef var and comma dangle ([fc0b30b](https://github.com/YappyBots/YappyGitLab/commit/fc0b30b))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/YappyBots/YappyGitLab/compare/v1.1.2...v1.2.0) (2017-07-16)
 
