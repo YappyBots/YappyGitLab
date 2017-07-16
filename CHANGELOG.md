@@ -1,3 +1,20 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/YappyBots/YappyGitLab/compare/v1.1.2...v1.2.0) (2017-07-16)
+
+
+### Bug Fixes
+
+* **discord:** fix commands not working in DMs ([8775292](https://github.com/YappyBots/YappyGitLab/commit/8775292))
+* **discord:** guild-only commands error in DM and don't show in help now ([8e28ea7](https://github.com/YappyBots/YappyGitLab/commit/8e28ea7))
+* **discord: commands:** fix command usage of invite ([1ea56ad](https://github.com/YappyBots/YappyGitLab/commit/1ea56ad))
+
+
+### Features
+
+* **discord: commands:** add initorg command ([8f48842](https://github.com/YappyBots/YappyGitLab/commit/8f48842))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/YappyBots/YappyGitLab/compare/v1.1.1...v1.1.2) (2017-07-15)
 
