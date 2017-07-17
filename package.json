@@ -22,8 +22,9 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "bufferutil": "^3.0.0",
-    "bugsnag": "1.10.0",
-    "chalk": "^1.1.3",
+    "bugsnag": "^1.11.0",
+    "chalk": "^2.0.1",
+    "cookie-parser": "^1.4.3",
     "discord.js": "hydrabolt/discord.js",
     "express": "^4.15.2",
     "hbs": "^4.0.1",
@@ -32,18 +33,17 @@
     "moment-duration-format": "^1.3.0",
     "mongoose": "^4.9.9",
     "snekfetch": "^3.1.6",
-    "snyk": "1.30.0",
+    "snyk": "^1.36.2",
     "winston": "^2.3.1"
   },
   "devDependencies": {
     "discord.js-docgen": "hydrabolt/discord.js-docgen",
-    "eslint": "^3.19.0",
+    "eslint": "^4.2.0",
     "ink-docstrap": "^1.3.0",
     "jsdoc": "^3.4.3",
     "jsdoc-strip-async-await": "^0.1.0",
     "loke-jsdoc-theme": "^2.1.0",
-    "minami": "zajrik/minami",
-    "postman-jsdoc-theme": "^0.0.2"
+    "minami": "zajrik/minami"
   },
   "snyk": true
 }
