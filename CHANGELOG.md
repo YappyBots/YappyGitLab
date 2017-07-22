@@ -1,3 +1,23 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/YappyBots/YappyGitLab/compare/v1.2.1...v1.3.0) (2017-07-21)
+
+
+### Bug Fixes
+
+* **dependencies:** add yappy-bots package from github ([5abf681](https://github.com/YappyBots/YappyGitLab/commit/5abf681))
+* **dependencies:** remove unused dependency from package-lock.json ([561aed0](https://github.com/YappyBots/YappyGitLab/commit/561aed0))
+* **discord:** fix references to RichEmbed instead of MessageEmbed ([ec3ed4c](https://github.com/YappyBots/YappyGitLab/commit/ec3ed4c))
+* **web:** allow repos in groups to work properly ([d290ada](https://github.com/YappyBots/YappyGitLab/commit/d290ada))
+* **web:** fix another wrong require path ([6fe24fe](https://github.com/YappyBots/YappyGitLab/commit/6fe24fe))
+* **web:** fix some wrong local dendencies paths ([94a308a](https://github.com/YappyBots/YappyGitLab/commit/94a308a))
+
+
+### Features
+
+* **web):** add basic discord oAuth ([418ebd5](https://github.com/YappyBots/YappyGitLab/commit/418ebd5))
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/YappyBots/YappyGitLab/compare/v1.2.0...v1.2.1) (2017-07-16)
 
