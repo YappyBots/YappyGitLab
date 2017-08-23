@@ -1,3 +1,13 @@
+<a name="1.3.1"></a>
+## [1.3.1](https://github.com/YappyBots/YappyGitLab/compare/v1.3.0...v1.3.1) (2017-08-23)
+
+
+### Bug Fixes
+
+* **web:** fix url encoded not working ([4822eb9](https://github.com/YappyBots/YappyGitLab/commit/4822eb9))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/YappyBots/YappyGitLab/compare/v1.2.1...v1.3.0) (2017-07-21)
 
