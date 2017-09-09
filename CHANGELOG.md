@@ -1,3 +1,14 @@
+<a name="1.3.3"></a>
+## [1.3.3](https://github.com/YappyBots/YappyGitLab/compare/v1.3.2...v1.3.3) (2017-09-09)
+
+
+### Bug Fixes
+
+* **dependencies:** update express, mongoose, jsdoc, body-parser, bugsnag, chalk, snekfetch, snyk, es ([a0b7f12](https://github.com/YappyBots/YappyGitLab/commit/a0b7f12))
+* **discord: commands:** fix update - move to NPM and limit stdout to 1000 chars ([78d3df9](https://github.com/YappyBots/YappyGitLab/commit/78d3df9))
+
+
+
 <a name="1.3.2"></a>
 ## [1.3.2](https://github.com/YappyBots/YappyGitLab/compare/v1.3.1...v1.3.2) (2017-09-09)
 
