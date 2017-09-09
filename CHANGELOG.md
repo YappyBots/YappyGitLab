@@ -1,3 +1,18 @@
+<a name="1.3.2"></a>
+## [1.3.2](https://github.com/YappyBots/YappyGitLab/compare/v1.3.1...v1.3.2) (2017-09-09)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependencies (discord.js#master) ([d86b710](https://github.com/YappyBots/YappyGitLab/commit/d86b710))
+* **discord: commands:** change init to use new domain ([ab65fd3](https://github.com/YappyBots/YappyGitLab/commit/ab65fd3))
+* **discord: commands:** change initorg to use new domain ([8e106a0](https://github.com/YappyBots/YappyGitLab/commit/8e106a0))
+* **discord: commands:** fix clean: change to msg.channel.messages.fetch ([f5810b8](https://github.com/YappyBots/YappyGitLab/commit/f5810b8))
+* **discord: modules:** change casual help to use new domain ([e593d37](https://github.com/YappyBots/YappyGitLab/commit/e593d37))
+* **web:** fix login button link, removed '/' ([c3e1f1c](https://github.com/YappyBots/YappyGitLab/commit/c3e1f1c))
+
+
+
 <a name="1.3.1"></a>
 ## [1.3.1](https://github.com/YappyBots/YappyGitLab/compare/v1.3.0...v1.3.1) (2017-08-23)
 
