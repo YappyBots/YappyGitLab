@@ -1,3 +1,18 @@
+<a name="1.3.4"></a>
+## [1.3.4](https://github.com/YappyBots/YappyGitLab/compare/v1.3.3...v1.3.4) (2017-10-11)
+
+
+### Bug Fixes
+
+* **dependencies:** update body-parser, moment, winston, snekfetch, snyk, express, mongoose, jsdoc, e ([b65963d](https://github.com/YappyBots/YappyGitLab/commit/b65963d))
+* **discord: commands:** init - explain how to init private repo ([c1afb94](https://github.com/YappyBots/YappyGitLab/commit/c1afb94)), closes [#13](https://github.com/YappyBots/YappyGitLab/issues/13)
+* **gitlab:** use regex for parser, support groups ([79f4f27](https://github.com/YappyBots/YappyGitLab/commit/79f4f27)), closes [#14](https://github.com/YappyBots/YappyGitLab/issues/14)
+* **gitlab: events:** push - return null if 0 commits, then gets ignored ([d92ab36](https://github.com/YappyBots/YappyGitLab/commit/d92ab36))
+* **models:** fix bot not adding new channels/guilds if none in cache ([1c7fd72](https://github.com/YappyBots/YappyGitLab/commit/1c7fd72))
+* **web:** fix parsing project namespace, therefore not supporting groups ([c372011](https://github.com/YappyBots/YappyGitLab/commit/c372011))
+
+
+
 <a name="1.3.3"></a>
 ## [1.3.3](https://github.com/YappyBots/YappyGitLab/compare/v1.3.2...v1.3.3) (2017-09-09)
 
