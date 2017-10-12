@@ -1,3 +1,16 @@
+<a name="1.3.6"></a>
+## [1.3.6](https://github.com/YappyBots/YappyGitLab/compare/v1.3.5...v1.3.6) (2017-10-12)
+
+
+### Bug Fixes
+
+* **discord: commands:** init - fix allowing multiple inits of same repo ([a2a3fdf](https://github.com/YappyBots/YappyGitLab/commit/a2a3fdf))
+* **discord: commands:** update - show "no output" if no NPM stdout ([4644c7e](https://github.com/YappyBots/YappyGitLab/commit/4644c7e))
+* **gitlab:** fix something with parser get repo thing ([c62d258](https://github.com/YappyBots/YappyGitLab/commit/c62d258))
+* **gitlab:** parser - fix wrong type in repository typedef ([169e91f](https://github.com/YappyBots/YappyGitLab/commit/169e91f))
+
+
+
 <a name="1.3.5"></a>
 ## [1.3.5](https://github.com/YappyBots/YappyGitLab/compare/v1.3.4...v1.3.5) (2017-10-12)
 
