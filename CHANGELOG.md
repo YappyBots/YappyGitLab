@@ -1,3 +1,14 @@
+<a name="1.3.5"></a>
+## [1.3.5](https://github.com/YappyBots/YappyGitLab/compare/v1.3.4...v1.3.5) (2017-10-12)
+
+
+### Bug Fixes
+
+* **models:** try to keep alive db connection ([6657d0a](https://github.com/YappyBots/YappyGitLab/commit/6657d0a))
+* **models: serverconfig:** fix this.delete causing error bc it's #deleteGuild ([d84e0fe](https://github.com/YappyBots/YappyGitLab/commit/d84e0fe))
+
+
+
 <a name="1.3.4"></a>
 ## [1.3.4](https://github.com/YappyBots/YappyGitLab/compare/v1.3.3...v1.3.4) (2017-10-11)
 
