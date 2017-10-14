@@ -1,3 +1,15 @@
+<a name="1.3.7"></a>
+## [1.3.7](https://github.com/YappyBots/YappyGitLab/compare/v1.3.6...v1.3.7) (2017-10-14)
+
+
+### Bug Fixes
+
+* **discord: commands:** invite - set client id to user ID ([9c72d7d](https://github.com/YappyBots/YappyGitLab/commit/9c72d7d))
+* **models:** fix no config found errors by creating config on the spot ([0098d23](https://github.com/YappyBots/YappyGitLab/commit/0098d23))
+* **snyk:** fix new vulnerabilities ([17ebc6b](https://github.com/YappyBots/YappyGitLab/commit/17ebc6b))
+
+
+
 <a name="1.3.6"></a>
 ## [1.3.6](https://github.com/YappyBots/YappyGitLab/compare/v1.3.5...v1.3.6) (2017-10-12)
 
