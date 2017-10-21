@@ -1,3 +1,13 @@
+<a name="1.3.8"></a>
+## [1.3.8](https://github.com/YappyBots/YappyGitLab/compare/v1.3.7...v1.3.8) (2017-10-21)
+
+
+### Bug Fixes
+
+* **discord: commands:** make reboot require owner ([6bac3d5](https://github.com/YappyBots/YappyGitLab/commit/6bac3d5))
+
+
+
 <a name="1.3.7"></a>
 ## [1.3.7](https://github.com/YappyBots/YappyGitLab/compare/v1.3.6...v1.3.7) (2017-10-14)
 
