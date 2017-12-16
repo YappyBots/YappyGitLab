@@ -35,7 +35,7 @@
     "snekfetch": "^3.5.1",
     "snyk": "^1.42.6",
     "winston": "^2.4.0",
-    "yappybots-addons": "git+https://github.com/YappyBots/yappy-addons.git"
+    "yappybots-addons": "github:YappyBots/yappy-addons"
   },
   "devDependencies": {
     "discord.js-docgen": "github:hydrabolt/discord.js-docgen",
