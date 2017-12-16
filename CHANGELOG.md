@@ -1,3 +1,19 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/YappyBots/YappyGitLab/compare/v1.3.8...v1.4.0) (2017-12-16)
+
+
+### Bug Fixes
+
+* **models: channelconfig:** maybe fix e.repos not being defined, set e.repos to [] if null ([e927229](https://github.com/YappyBots/YappyGitLab/commit/e927229))
+
+
+### Features
+
+* **gitlab: events:** add pipeline ([#21](https://github.com/YappyBots/YappyGitLab/issues/21)) ([7e8a790](https://github.com/YappyBots/YappyGitLab/commit/7e8a790))
+* **logging:** add discord logging with yappybots-addons ([5c944c7](https://github.com/YappyBots/YappyGitLab/commit/5c944c7))
+
+
+
 <a name="1.3.8"></a>
 ## [1.3.8](https://github.com/YappyBots/YappyGitLab/compare/v1.3.7...v1.3.8) (2017-10-21)
 
