@@ -4,3 +4,8 @@
       path: welcome.md
     - name: Setting Up
       path: settingup.md
+
+- name: Contributing
+  files:
+    - name: Main
+      path: ../../CONTRIBUTING.md

@@ -3,8 +3,7 @@
 ### Clone repo
 
 ```sh
-$ cd folder/where/i/want/bot
-$ git clone https://github.com/datitisev/DiscordBot-YappyGitLab.git
+$ git clone https://github.com/YappyBots/YappyGitlab.git
 ```
 
 ### Linting
@@ -23,13 +22,18 @@ If the event has a space in its actual name, like "Tag Push Hook", the correspon
 
 Yappy GitLab needs the following environment variables:
 
-- **REQUIRED** `YAPPY_GITLAB_DISCORD` - discord bot token
-- **REQUIRED** `YAPPY_GITLAB_MONGODB` - a MongoDB database to insert data, use `mongodb://yappy:gitlab@ds157298.mlab.com:57298/yappy_gitlab_contributors` for testing :)
-- **OPTIONAL** `GITLAB_TOKEN` - a gitlab token to.... do nothing atm ^\_\^
+The following settings are required:
+- `DISCORD_TOKEN`
+- `DB_URL`
+  - Use `mongodb://yappy:gitlab@ds157298.mlab.com:57298/yappy_gitlab_contributors` for testing
+- `DISCORD_CLIENT_ID` (for the web dashboard)
+- `DISCORD_CLIENT_SECRET` (for the web dashboard)
 
-Yappy GitLab also needs to be run with NodeJS v7 and the `--harmony` flag.
-An example on running the bot:
+Yappy GitLab also needs to be run with NodeJS v8 or higher.
+A few examples on running the bot:
 
 ```sh
-$ YAPPY_GITLAB_DISCORD=iLikeTokens YAPPY_GITLAB_MONGODB=youDoNotWantToSeeThisAgain node --harmony lib/index.js
+$ node lib/index.js
+$ npm start
+$ nodemon # if
 ```
