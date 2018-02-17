@@ -1,3 +1,17 @@
+<a name="1.4.1"></a>
+## [1.4.1](https://github.com/YappyBots/YappyGitLab/compare/v1.4.0...v1.4.1) (2018-02-17)
+
+
+### Bug Fixes
+
+* **dependencies:** update bufferutil, chalk, moment1, snekfetch, snyk, eslint, dotenv ([c274ed7](https://github.com/YappyBots/YappyGitLab/commit/c274ed7))
+* **discord:** fix DM's not working ([ab54c6b](https://github.com/YappyBots/YappyGitLab/commit/ab54c6b))
+* **models: serverconfig:** don't add server config if guild is unavailable ([d9a20da](https://github.com/YappyBots/YappyGitLab/commit/d9a20da))
+* **models: serverconfig:** hopefully fix adding guild that is already in config ([7d87ac9](https://github.com/YappyBots/YappyGitLab/commit/7d87ac9))
+* **snyk:** update policy ([b01390c](https://github.com/YappyBots/YappyGitLab/commit/b01390c))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/YappyBots/YappyGitLab/compare/v1.3.8...v1.4.0) (2017-12-16)
 
