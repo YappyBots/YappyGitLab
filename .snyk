@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.10.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:shelljs:20140723':
@@ -9,10 +9,10 @@ ignore:
   'npm:handlebars:20151207':
     - swag > handlebars:
         reason: None given
-        expires: '2017-11-13T17:17:07.521Z'
+        expires: '2018-03-19T14:43:08.650Z'
     - yappybots-addons > swag > handlebars:
         reason: None given
-        expires: '2017-11-13T17:17:07.521Z'
+        expires: '2018-03-19T14:43:08.650Z'
   'npm:marked:20170907':
     - discord.js-docgen > jsdoc-to-markdown > jsdoc-api > jsdoc-75lb > marked:
         reason: None given
@@ -31,17 +31,15 @@ patch:
   'npm:marked:20170112':
     - discord.js-docgen > jsdoc-to-markdown > dmd > marked:
         patched: '2017-05-14T13:37:02.570Z'
-      discord.js-docgen > jsdoc-to-markdown > jsdoc-api > jsdoc-75lb > marked:
-        patched: '2017-10-14T17:16:05.020Z'
     - discord.js-docgen > jsdoc-to-markdown > jsdoc-api > jsdoc-75lb > marked:
         patched: '2017-05-14T13:37:02.570Z'
-      discord.js-docgen > jsdoc-to-markdown > dmd > marked:
+    - discord.js-docgen > jsdoc-to-markdown > jsdoc-api > jsdoc-75lb > marked:
+        patched: '2017-10-14T17:16:05.020Z'
+    - discord.js-docgen > jsdoc-to-markdown > dmd > marked:
         patched: '2017-10-14T17:16:05.020Z'
   'npm:uglify-js:20150824':
     - discord.js-docgen > jsdoc-to-markdown > dmd > handlebars > uglify-js:
         patched: '2017-05-14T13:37:02.570Z'
-      swag > handlebars > uglify-js:
-        patched: '2017-10-14T17:16:05.020Z'
     - swag > handlebars > uglify-js:
         patched: '2017-10-14T17:16:05.020Z'
     - swag > handlebars > uglify-js:
@@ -57,13 +55,15 @@ patch:
     - discord.js-docgen > jsdoc-to-markdown > dmd > handlebars > uglify-js:
         patched: '2017-10-14T17:16:05.020Z'
     - discord.js-docgen > jsdoc-to-markdown > dmd > handlebars > uglify-js:
+        patched: '2017-10-14T17:16:05.020Z'
+    - swag > handlebars > uglify-js:
         patched: '2017-10-14T17:16:05.020Z'
   'npm:uglify-js:20151024':
     - discord.js-docgen > jsdoc-to-markdown > dmd > handlebars > uglify-js:
         patched: '2017-05-14T13:37:02.570Z'
-      swag > handlebars > uglify-js:
-        patched: '2017-10-14T17:16:05.020Z'
     - yappybots-addons > swag > handlebars > uglify-js:
         patched: '2017-10-14T17:16:05.020Z'
     - discord.js-docgen > jsdoc-to-markdown > dmd > handlebars > uglify-js:
+        patched: '2017-10-14T17:16:05.020Z'
+    - swag > handlebars > uglify-js:
         patched: '2017-10-14T17:16:05.020Z'
