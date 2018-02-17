@@ -1,3 +1,15 @@
+<a name="1.4.2"></a>
+## [1.4.2](https://github.com/YappyBots/YappyGitLab/compare/v1.4.1...v1.4.2) (2018-02-17)
+
+
+### Bug Fixes
+
+* **gitlab:** fix repo using input and not parsed output ([7797844](https://github.com/YappyBots/YappyGitLab/commit/7797844))
+* **gitlab:** rework parser to support .git and multiple organization groups ([eb49c5c](https://github.com/YappyBots/YappyGitLab/commit/eb49c5c))
+* **gitlab:** rework parser url to allow urls starting with git@ ([101ab7a](https://github.com/YappyBots/YappyGitLab/commit/101ab7a))
+
+
+
 <a name="1.4.1"></a>
 ## [1.4.1](https://github.com/YappyBots/YappyGitLab/compare/v1.4.0...v1.4.1) (2018-02-17)
 
