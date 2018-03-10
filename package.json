@@ -23,6 +23,7 @@
     "body-parser": "^1.18.2",
     "bufferutil": "^3.0.3",
     "chalk": "^2.3.1",
+    "clean-stacktrace": "^1.1.0",
     "cookie-parser": "^1.4.3",
     "discord.js": "github:hydrabolt/discord.js",
     "dotenv": "^5.0.0",
