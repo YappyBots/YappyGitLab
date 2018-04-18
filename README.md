@@ -19,7 +19,7 @@ __**Util**__:
   - `ping` - uh... ping? pong!
   - `stats` - shows the stats of the bot... what else?
 
-__**Github**__:
+__**GitLab**__:
   - `issues search <query> [p#]` - search issues by any field in the channel repo
   - `issue <number>` - gives info about that specific issue in the channel repo
   - `mr list [p#]` - list merge requests by any field in the channel repo
