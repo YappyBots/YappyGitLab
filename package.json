@@ -42,7 +42,8 @@
     "discord.js-docgen": "github:hydrabolt/discord.js-docgen",
     "eslint": "^4.19.1",
     "jsdoc": "^3.5.5",
-    "jsdoc-strip-async-await": "^0.1.0"
+    "jsdoc-strip-async-await": "^0.1.0",
+    "require-so-slow": "^1.0.1"
   },
   "snyk": true
 }
