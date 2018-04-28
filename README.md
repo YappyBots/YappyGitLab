@@ -11,10 +11,11 @@ Invite the bot at http://bit.ly/DiscordYappyGitlab
 
 ### Commands
 Prefixes are `GL! ` (with space), custom prefix set up, or mention the bot.
+Get more updated details of these commands at https://www.yappybots.ga/gitlab/commands.
 
 __**Util**__:
   - `help` - a help command... yeah :P
-  - `invite` - how to invite the bot and set up github events!
+  - `invite` - how to invite the bot and set up gitlab events!
   - `clean` - cleans the bot's messages found in the last 100 messages
   - `ping` - uh... ping? pong!
   - `stats` - shows the stats of the bot... what else?
