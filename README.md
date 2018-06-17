@@ -7,9 +7,11 @@ Monitor your GitLab repos by adding this bot to your server, set up a channel fo
 ### Info
 
 Join our Discord server at https://discord.gg/HHqndMG
+
 Invite the bot at http://bit.ly/DiscordYappyGitlab
 
 ### Commands
+
 Prefixes are `GL! ` (with space), custom prefix set up, or mention the bot.
 Get more updated details of these commands at https://www.yappybots.ga/gitlab/commands.
 
@@ -34,3 +36,7 @@ __**Admin**__:
   - `conf -g [view/set/get] [key] [value]` - view/get/set global config (using `-g`)
   - `init <repo> [private]` - initialize repo events on channel
   - `remove [repo]` - remove repo events on channel
+
+### Developer Documentation
+
+https://yappybots.github.io/#/docs/yappygitlab/
