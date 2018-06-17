@@ -1,3 +1,13 @@
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/YappyBots/YappyGitLab/compare/v1.5.0...v1.5.1) (2018-06-17)
+
+
+### Bug Fixes
+
+* **gitlab:** parser: include subgroup(s) in full repo name ([9263b1f](https://github.com/YappyBots/YappyGitLab/commit/9263b1f))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/YappyBots/YappyGitLab/compare/v1.4.2...v1.5.0) (2018-06-17)
 
