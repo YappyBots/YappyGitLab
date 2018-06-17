@@ -1,3 +1,39 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/YappyBots/YappyGitLab/compare/v1.4.2...v1.5.0) (2018-06-17)
+
+
+### Bug Fixes
+
+* **dependencies:** update discordjs/discord.js to latest master ([0198e1e](https://github.com/YappyBots/YappyGitLab/commit/0198e1e))
+* **discord: commands:** fix initorg using project name instead of path ([6934709](https://github.com/YappyBots/YappyGitLab/commit/6934709))
+* **discord: commands:** include private repos in initorg ([a1c2bcb](https://github.com/YappyBots/YappyGitLab/commit/a1c2bcb))
+* **discord: commands:** initorg: fix `e` undefined ([568cad0](https://github.com/YappyBots/YappyGitLab/commit/568cad0))
+* **discord: commands:** initorg: fix success message error ([ff03906](https://github.com/YappyBots/YappyGitLab/commit/ff03906))
+* **discord: commands:** update texts with 'github' to 'gitlab' ([5053987](https://github.com/YappyBots/YappyGitLab/commit/5053987))
+* **gitlab:** move embed description limit into handler parser ([e5e7155](https://github.com/YappyBots/YappyGitLab/commit/e5e7155))
+* **gitlab:** rework regex parser to accept more url variations ([e85d845](https://github.com/YappyBots/YappyGitLab/commit/e85d845))
+* **gitlab: events:** merge_request/merge: fix error if merge commit sha is undefined ([2ec858a](https://github.com/YappyBots/YappyGitLab/commit/2ec858a)), closes [#26](https://github.com/YappyBots/YappyGitLab/issues/26)
+* **gitlab: events:** wiki_page/create: fix error in text mode ([7e79df6](https://github.com/YappyBots/YappyGitLab/commit/7e79df6))
+* **log:** remove binding of #message in Log ([e132410](https://github.com/YappyBots/YappyGitLab/commit/e132410))
+* **models: channelconfig:** don't add channel config if it's missing a value ([d4e8522](https://github.com/YappyBots/YappyGitLab/commit/d4e8522))
+* **web:** fix error if an error occurs when generating eventResponse ([8c4e633](https://github.com/YappyBots/YappyGitLab/commit/8c4e633)), closes [#27](https://github.com/YappyBots/YappyGitLab/issues/27)
+* **web:** fix webhooks without action not working... ? ([1246cb4](https://github.com/YappyBots/YappyGitLab/commit/1246cb4)), closes [#31](https://github.com/YappyBots/YappyGitLab/issues/31)
+* **web:** increase body limit to 500kb ([02fb01e](https://github.com/YappyBots/YappyGitLab/commit/02fb01e)), closes [#24](https://github.com/YappyBots/YappyGitLab/issues/24)
+* **web:** set body limit to 5mb ([1fff9cb](https://github.com/YappyBots/YappyGitLab/commit/1fff9cb))
+
+
+### Features
+
+* **discord:** use addons command, allows for commands page ([0e53dcd](https://github.com/YappyBots/YappyGitLab/commit/0e53dcd))
+* **gitlab: events:** add issue ([#31](https://github.com/YappyBots/YappyGitLab/issues/31)) ([8bfc74f](https://github.com/YappyBots/YappyGitLab/commit/8bfc74f))
+
+
+### Performance Improvements
+
+* **models: serverconfig:** only save server config into cache for servers where messages are being ([7ca752d](https://github.com/YappyBots/YappyGitLab/commit/7ca752d))
+
+
+
 <a name="1.4.2"></a>
 ## [1.4.2](https://github.com/YappyBots/YappyGitLab/compare/v1.4.1...v1.4.2) (2018-02-17)
 
