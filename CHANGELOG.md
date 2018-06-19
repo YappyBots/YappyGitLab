@@ -1,3 +1,14 @@
+<a name="1.5.2"></a>
+## [1.5.2](https://github.com/YappyBots/YappyGitLab/compare/v1.5.1...v1.5.2) (2018-06-19)
+
+
+### Bug Fixes
+
+* **discord: commands:** init/remove: fix showing 'false' if embeds are enabled ([9796079](https://github.com/YappyBots/YappyGitLab/commit/9796079))
+* **gitlab:** parser: fix double backslash if no subgroup ([67f7cbc](https://github.com/YappyBots/YappyGitLab/commit/67f7cbc))
+
+
+
 <a name="1.5.1"></a>
 ## [1.5.1](https://github.com/YappyBots/YappyGitLab/compare/v1.5.0...v1.5.1) (2018-06-17)
 
