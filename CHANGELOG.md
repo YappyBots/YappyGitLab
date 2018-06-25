@@ -1,3 +1,13 @@
+<a name="1.5.3"></a>
+## [1.5.3](https://github.com/YappyBots/YappyGitLab/compare/v1.5.2...v1.5.3) (2018-06-25)
+
+
+### Bug Fixes
+
+* **discord: commands:** fix `-g` included in the argument name being interpreted as global ([0a10ef5](https://github.com/YappyBots/YappyGitLab/commit/0a10ef5))
+
+
+
 <a name="1.5.2"></a>
 ## [1.5.2](https://github.com/YappyBots/YappyGitLab/compare/v1.5.1...v1.5.2) (2018-06-19)
 

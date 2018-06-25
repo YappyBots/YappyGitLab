@@ -1,6 +1,6 @@
 {
   "name": "DiscordBot-YappyGitlab",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "A Gitlab repo monitor bot for Discord",
   "main": "lib/index.js",
   "private": true,
