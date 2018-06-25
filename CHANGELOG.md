@@ -1,3 +1,13 @@
+<a name="1.5.5"></a>
+## [1.5.5](https://github.com/YappyBots/YappyGitLab/compare/v1.5.4...v1.5.5) (2018-06-25)
+
+
+### Bug Fixes
+
+* **discord: commands:** conf: fix syntax error °_° ([ab16b27](https://github.com/YappyBots/YappyGitLab/commit/ab16b27))
+
+
+
 <a name="1.5.4"></a>
 ## [1.5.4](https://github.com/YappyBots/YappyGitLab/compare/v1.5.3...v1.5.4) (2018-06-25)
 
