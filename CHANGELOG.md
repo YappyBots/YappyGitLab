@@ -1,3 +1,13 @@
+<a name="1.5.7"></a>
+## [1.5.7](https://github.com/YappyBots/YappyGitLab/compare/v1.5.6...v1.5.7) (2018-06-27)
+
+
+### Bug Fixes
+
+* **gitlab: events:** fix event handler getting property from undefined ([9b9b94a](https://github.com/YappyBots/YappyGitLab/commit/9b9b94a))
+
+
+
 <a name="1.5.5"></a>
 ## [1.5.5](https://github.com/YappyBots/YappyGitLab/compare/v1.5.4...v1.5.5) (2018-06-25)
 
