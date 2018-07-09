@@ -1,3 +1,13 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/YappyBots/YappyGitLab/compare/v1.5.7...v1.6.0) (2018-07-09)
+
+
+### Features
+
+* **discord: commands:** add `conf events [view|list|ignore|disable|enable|unignore] [event]` ([3c88665](https://github.com/YappyBots/YappyGitLab/commit/3c88665))
+
+
+
 <a name="1.5.7"></a>
 ## [1.5.7](https://github.com/YappyBots/YappyGitLab/compare/v1.5.6...v1.5.7) (2018-06-27)
 
