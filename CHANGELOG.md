@@ -1,3 +1,14 @@
+<a name="1.6.1"></a>
+## [1.6.1](https://github.com/YappyBots/YappyGitLab/compare/v1.6.0...v1.6.1) (2018-07-16)
+
+
+### Bug Fixes
+
+* **models: channelconfig:** fix collection using deprecated find method ([7f29fb5](https://github.com/YappyBots/YappyGitLab/commit/7f29fb5))
+* **moduls: channelconfig:** make sure a string isn't split by character onto array ([4a86d74](https://github.com/YappyBots/YappyGitLab/commit/4a86d74))
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/YappyBots/YappyGitLab/compare/v1.5.7...v1.6.0) (2018-07-09)
 
