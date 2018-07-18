@@ -1,3 +1,13 @@
+<a name="1.7.0"></a>
+# [1.7.0](https://github.com/YappyBots/YappyGitLab/compare/v1.6.1...v1.7.0) (2018-07-18)
+
+
+### Features
+
+* **gitlab: events:** merge_request/approved and merge_request/unapproved ([#34](https://github.com/YappyBots/YappyGitLab/issues/34)) ([01bf76e](https://github.com/YappyBots/YappyGitLab/commit/01bf76e))
+
+
+
 <a name="1.6.1"></a>
 ## [1.6.1](https://github.com/YappyBots/YappyGitLab/compare/v1.6.0...v1.6.1) (2018-07-16)
 
