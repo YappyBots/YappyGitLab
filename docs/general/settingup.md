@@ -5,7 +5,7 @@ Follow the following steps to set up Yappy with any repo on GitLab.
 **Discord**
 1. Go to the channel you want events in for a repo
 2. Say `GL! init REPO`, where `REPO` can be `username/repo`, a gitlab url.. more usage info at `GL! help init`
-  - If the repository is private, make sure you tell Yappy that with `GL! init REPO private`;
+  - If the repository is private, make sure you tell Yappy that with `GL! init REPO private`
 
 **GitLab**
 1. Go to the GitLab repo you want to have events for
