@@ -13,7 +13,7 @@ Invite the bot at http://bit.ly/DiscordYappyGitlab
 ### Commands
 
 Prefixes are `GL! ` (with space), custom prefix set up, or mention the bot.
-Get more updated details of these commands at https://www.yappybots.ga/gitlab/commands.
+Get more updated details of these commands at https://www.yappybots.tk/gitlab/commands.
 
 __**Util**__:
   - `help` - a help command... yeah :P
