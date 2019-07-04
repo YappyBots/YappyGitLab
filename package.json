@@ -11,7 +11,8 @@
     "docs:test": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect",
-    "test": "snyk test"
+    "test": "snyk test",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "url": "https://github.com/YappyBots/YappyGitLab",
@@ -34,7 +35,7 @@
     "mongoose": "^5.4.20",
     "punycode": "^2.1.1",
     "snekfetch": "^3.6.4",
-    "snyk": "^1.143.5",
+    "snyk": "^1.189.0",
     "winston": "^2.4.4",
     "yappybots-addons": "github:YappyBots/yappy-addons"
   },
