@@ -31,7 +31,7 @@
     "jsondiffpatch": "^0.3.11",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.2.2",
-    "mongoose": "^5.4.20",
+    "mongoose": "^5.7.5",
     "punycode": "^2.1.1",
     "snekfetch": "^3.6.4",
     "snyk": "^1.143.5",
