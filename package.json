@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node lib/index.js",
-    "lint": "eslint .",
+    "lint": "prettier --check lib/**/*.js",
     "docs": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml --output docs/docs.json",
     "docs:test": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml",
     "snyk-protect": "snyk protect",
