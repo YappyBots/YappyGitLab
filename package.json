@@ -34,7 +34,6 @@
     "mongoose": "^5.4.20",
     "punycode": "^2.1.1",
     "snekfetch": "^3.6.4",
-    "snyk": "^1.143.5",
     "winston": "^2.4.4",
     "yappybots-addons": "github:YappyBots/yappy-addons"
   },
@@ -44,6 +43,5 @@
     "jsdoc-strip-async-await": "^0.1.0",
     "prettier": "^1.19.1",
     "require-so-slow": "^1.2.0"
-  },
-  "snyk": true
+  }
 }
