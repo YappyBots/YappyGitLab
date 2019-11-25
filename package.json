@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node lib/index.js",
-    "lint": "eslint .",
+    "lint": "prettier --single-quote --trailing-comma es5 --print-width 150 --tab-width 4 --write lib/**/* db/migrations/*",
     "docs": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml --output docs/docs.json",
     "docs:test": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml",
     "snyk-protect": "snyk protect",
@@ -40,9 +40,9 @@
   },
   "devDependencies": {
     "discord.js-docgen": "github:hydrabolt/discord.js-docgen",
-    "eslint": "^5.16.0",
-    "jsdoc": "^3.6.2",
+    "jsdoc": "^3.6.3",
     "jsdoc-strip-async-await": "^0.1.0",
+    "prettier": "^1.19.1",
     "require-so-slow": "^1.2.0"
   },
   "snyk": true
