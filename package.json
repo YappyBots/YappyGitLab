@@ -37,6 +37,7 @@
     "mongoose": "^5.7.12",
     "node-fetch": "^2.6.0",
     "p-queue": "^6.2.1",
+    "parse-github-url": "^1.0.2",
     "pretty-error": "^2.1.1",
     "punycode": "^2.1.1",
     "snekfetch": "^4.0.4",
