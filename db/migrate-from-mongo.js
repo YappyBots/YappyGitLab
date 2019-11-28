@@ -24,7 +24,7 @@ const channelConfig = mongoose.model('ChannelConfig', {
     embed: Boolean,
     disabledEvents: {
         type: Array,
-        default: ['merge_request/update'],
+        default: ['merge_request/update', 'job'],
     },
     ignoredUsers: Array,
     ignoredBranches: Array,
