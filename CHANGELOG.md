@@ -1,3 +1,31 @@
+# [1.8.0](https://github.com/YappyBots/YappyGitLab/compare/v1.7.2...v1.8.0) (2019-11-28)
+
+
+### Bug Fixes
+
+* **db:** add 'job' event to automatically ignored (not styled yet) ([2dc511f](https://github.com/YappyBots/YappyGitLab/commit/2dc511f4d10077ea6ef3cf40db0eb5a8c3bf7b8b))
+* **db:** fix initialization using nonexistent 'has' method ([c985e68](https://github.com/YappyBots/YappyGitLab/commit/c985e68c2454510cfc64c51af08a9a2bcc515a21))
+* **db:** update yappy addons package name and passing models ([10976c4](https://github.com/YappyBots/YappyGitLab/commit/10976c47817236f01389e9b37d67000ede4eb70d))
+* **dependencies:** add punycode ([20ffbe8](https://github.com/YappyBots/YappyGitLab/commit/20ffbe88c229f144af7bd43cbb176c5b43fcad6b))
+* **discord:** restart on disconnect ([405172a](https://github.com/YappyBots/YappyGitLab/commit/405172ab05c34b846a9c65a61b5f8ef8b457f4a9))
+* **discord: commands:** conf: don't check if event exists ([507ad6d](https://github.com/YappyBots/YappyGitLab/commit/507ad6d01fc001f197a53258a294e47fcdc5318c))
+* **discord: commands:** conf: fix Action.DISABLE not working (was falsy value) ([c013c5d](https://github.com/YappyBots/YappyGitLab/commit/c013c5d7e02e6bfaac98ee5d20838280f8aac3b3))
+* **discord: commands:** ping: update code for latest djs ([4534588](https://github.com/YappyBots/YappyGitLab/commit/4534588b57453cd16921eba8b5ae0f16270e978a))
+* **github:** allow job events, improve url parser ([34ef9ec](https://github.com/YappyBots/YappyGitLab/commit/34ef9ec39a8fa4f9e6c5ab22df35696bc71ae1ac)), closes [#43](https://github.com/YappyBots/YappyGitLab/issues/43) [#29](https://github.com/YappyBots/YappyGitLab/issues/29) [#52](https://github.com/YappyBots/YappyGitLab/issues/52)
+
+
+### Features
+
+* **discord: commands:** init: add support for IDN ([#36](https://github.com/YappyBots/YappyGitLab/issues/36)) ([7f811ed](https://github.com/YappyBots/YappyGitLab/commit/7f811ed4378b23ec38965c6910d7441d800e7849))
+
+
+### Performance Improvements
+
+* **db:** cache guild prefixes ([9d9e41d](https://github.com/YappyBots/YappyGitLab/commit/9d9e41d9393b635f0c9fc3e1d93eb856a66f4bcf))
+* **db:** switch to sqlite, add whitelist/blacklist system to conf ([cffdb35](https://github.com/YappyBots/YappyGitLab/commit/cffdb3594bfc0d034ab6f0c1d5b92b70368b11dc))
+
+
+
 <a name="1.7.1"></a>
 ## [1.7.1](https://github.com/YappyBots/YappyGitLab/compare/v1.7.0...v1.7.1) (2018-07-18)
 
