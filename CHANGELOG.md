@@ -1,3 +1,15 @@
+## [1.8.1](https://github.com/YappyBots/YappyGitLab/compare/v1.8.0...v1.8.1) (2019-12-04)
+
+
+### Bug Fixes
+
+* **discord: commands:** init: show usage if repo not provided ([89df14f](https://github.com/YappyBots/YappyGitLab/commit/89df14fa512a2b169c481d3a49ea7bcd40563116))
+* **discord: commands:** invite: fix error when running ([1da955f](https://github.com/YappyBots/YappyGitLab/commit/1da955f637e4d76553b02603b2bdef67d1d64e4c))
+* **models:** fix errors thrown when model doesn't exist in db ([d9673d0](https://github.com/YappyBots/YappyGitLab/commit/d9673d08d713f907d46c6693bb391453fc7def46))
+* **npm:** remove snyk mentions from npm scripts to fix deploy script ([01890da](https://github.com/YappyBots/YappyGitLab/commit/01890dadaa846b08ec3b6230d60178c54a4e1633))
+
+
+
 # [1.8.0](https://github.com/YappyBots/YappyGitLab/compare/v1.7.2...v1.8.0) (2019-11-28)
 
 
