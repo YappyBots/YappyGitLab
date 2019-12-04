@@ -1,3 +1,12 @@
+## [1.8.2](https://github.com/YappyBots/YappyGitLab/compare/v1.8.1...v1.8.2) (2019-12-04)
+
+
+### Bug Fixes
+
+* **discord:** do not exit on disconnect ([53f4a47](https://github.com/YappyBots/YappyGitLab/commit/53f4a473e6e03a3f7d995a0f3b792586531cb32e))
+
+
+
 ## [1.8.1](https://github.com/YappyBots/YappyGitLab/compare/v1.8.0...v1.8.1) (2019-12-04)
 
 
