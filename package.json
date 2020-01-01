@@ -29,7 +29,7 @@
     "express": "^4.17.1",
     "hbs": "^4.0.6",
     "jsondiffpatch": "^0.3.11",
-    "knex": "^0.20.2",
+    "knex": "^0.20.6",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.3.2",
     "mongoose": "^5.7.12",
@@ -39,7 +39,7 @@
     "pretty-error": "^2.1.1",
     "punycode": "^2.1.1",
     "snekfetch": "^4.0.4",
-    "sqlite3": "^4.1.0",
+    "sqlite3": "^4.1.1",
     "winston": "^2.4.4"
   },
   "devDependencies": {
