@@ -42,10 +42,6 @@
     "winston": "^2.4.4"
   },
   "devDependencies": {
-    "discord.js-docgen": "github:hydrabolt/discord.js-docgen",
-    "jsdoc": "^3.6.3",
-    "jsdoc-strip-async-await": "^0.1.0",
-    "prettier": "^2.0.2",
-    "require-so-slow": "^1.2.0"
+    "prettier": "^2.0.2"
   }
 }
