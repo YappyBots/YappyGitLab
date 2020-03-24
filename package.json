@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node lib/index.js",
-    "lint": "prettier --single-quote --trailing-comma es5 --print-width 150 --tab-width 4 --write lib/**/* db/migrations/*",
+    "lint": "prettier --single-quote --trailing-comma es5 --print-width 150 --tab-width 4 --write lib db/migrations",
     "docs": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml --output docs/docs.json",
     "docs:test": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml"
   },
@@ -19,21 +19,21 @@
   "dependencies": {
     "@YappyBots/addons": "github:YappyBots/yappy-addons",
     "body-parser": "^1.19.0",
-    "bookshelf": "^1.0.1",
+    "bookshelf": "^1.1.0",
     "chalk": "^3.0.0",
     "clean-stack": "^2.2.0",
     "clean-stacktrace": "^1.1.0",
-    "cookie-parser": "^1.4.4",
+    "cookie-parser": "^1.4.5",
     "discord.js": "github:discordjs/discord.js#master",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "hbs": "^4.0.6",
-    "jsondiffpatch": "^0.3.11",
-    "knex": "^0.20.6",
+    "hbs": "^4.1.0",
+    "jsondiffpatch": "^0.4.1",
+    "knex": "^0.20.13",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.3.2",
     "node-fetch": "^2.6.0",
-    "p-queue": "^6.2.1",
+    "p-queue": "^6.3.0",
     "parse-github-url": "^1.0.2",
     "pretty-error": "^2.1.1",
     "punycode": "^2.1.1",
@@ -45,7 +45,7 @@
     "discord.js-docgen": "github:hydrabolt/discord.js-docgen",
     "jsdoc": "^3.6.3",
     "jsdoc-strip-async-await": "^0.1.0",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.2",
     "require-so-slow": "^1.2.0"
   }
 }
