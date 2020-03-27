@@ -8,7 +8,8 @@
     "start": "node lib/index.js",
     "lint": "prettier --single-quote --trailing-comma es5 --print-width 150 --tab-width 4 --write lib db/migrations",
     "docs": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml --output docs/docs.json",
-    "docs:test": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml"
+    "docs:test": "docgen --source lib --jsdoc .jsdoc.json --custom docs/index.yml",
+    "db:migrate": "knex migrate:latest"
   },
   "repository": {
     "url": "https://github.com/YappyBots/YappyGitLab",
