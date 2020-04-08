@@ -1,3 +1,15 @@
+## [1.9.1](https://github.com/YappyBots/YappyGitLab/compare/v1.9.0...v1.9.1) (2020-04-08)
+
+
+### Bug Fixes
+
+* **discord:** allow DMs ([b34d95f](https://github.com/YappyBots/YappyGitLab/commit/b34d95f32a22abf6e4260ef6ec64a8a00ddb4ac0))
+* **discord: commands:** data: don't spam, send in DMs ([5de6989](https://github.com/YappyBots/YappyGitLab/commit/5de6989c47cd40b800d46c9c02728292ef9782cc))
+* **web:** allow events with no branches ([da428d0](https://github.com/YappyBots/YappyGitLab/commit/da428d07fc45b4453f264c900231cbc5495f348f))
+* **web:** oh i used something not supported whoops ([3c2b05f](https://github.com/YappyBots/YappyGitLab/commit/3c2b05ff264a38dd12f6ef31db2d4d9f24c5d310))
+
+
+
 # [1.9.0](https://github.com/YappyBots/YappyGitLab/compare/v1.8.3...v1.9.0-dev) (2020-04-08)
 
 * Discord.js v12 update
