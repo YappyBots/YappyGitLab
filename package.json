@@ -20,15 +20,15 @@
   "dependencies": {
     "@YappyBots/addons": "github:YappyBots/yappy-addons",
     "body-parser": "^1.19.0",
-    "bookshelf": "^1.1.0",
-    "chalk": "^3.0.0",
+    "bookshelf": "^1.1.1",
+    "chalk": "^4.0.0",
     "clean-stack": "^2.2.0",
     "clean-stacktrace": "^1.1.0",
     "cookie-parser": "^1.4.5",
     "discord.js": "github:discordjs/discord.js#master",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "hbs": "^4.1.0",
+    "hbs": "^4.1.1",
     "jsondiffpatch": "^0.4.1",
     "knex": "^0.20.13",
     "moment": "^2.24.0",
@@ -43,6 +43,6 @@
     "winston": "^2.4.4"
   },
   "devDependencies": {
-    "prettier": "^2.0.2"
+    "prettier": "^2.0.4"
   }
 }
