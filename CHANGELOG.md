@@ -1,3 +1,34 @@
+# [1.9.0](https://github.com/YappyBots/YappyGitLab/compare/v1.8.3...v1.9.0-dev) (2020-04-08)
+
+* Discord.js v12 update
+
+
+### Bug Fixes
+
+* **web:** update web code for discord v12 ([d58b62b](https://github.com/YappyBots/YappyGitLab/commit/d58b62b96f9958aba96de75b9ddc96f8bb0cebff))
+
+
+### Features
+
+* **discord: commands:** add 'data' administrator commands for insight on bot data usage ([2ea2be1](https://github.com/YappyBots/YappyGitLab/commit/2ea2be1f6540d715e8b75b2fc661356d7cb29cf4))
+
+
+
+## [1.8.3](https://github.com/YappyBots/YappyGitLab/compare/v1.8.2...v1.8.3) (2020-03-24)
+
+
+### Bug Fixes
+
+* **discord: commands:** conf: prevent adding empty name events to filter list ([1dc4515](https://github.com/YappyBots/YappyGitLab/commit/1dc451594df9903753a1f5db5a9272169720e234))
+* **discord: commands:** init: fix code error if no repo provided ([ec5d48a](https://github.com/YappyBots/YappyGitLab/commit/ec5d48aab5297b2d70786d99896c2e0f84bedfb6))
+* **gitlab:** fix errors thrown when checking repo existance & not including all subgroups ([d5c8547](https://github.com/YappyBots/YappyGitLab/commit/d5c8547e27bf0ba5d9e624081f4d50c7b4cc21e1))
+* **gitlab:** fix only URLs working ([54020b3](https://github.com/YappyBots/YappyGitLab/commit/54020b32819256414a2ec852b9ec200b7efac151))
+* **gitlab:** parser: fix using wrong capture group ([a2ee421](https://github.com/YappyBots/YappyGitLab/commit/a2ee42103dbb53b00bd9633123cb2ff0fa346e8f))
+* **gitlab:** replace url parser again with custom one for gitlab groups ([1a44dfc](https://github.com/YappyBots/YappyGitLab/commit/1a44dfc8b71a4389517a29b9a9cf6f88ed0bf358))
+* remove mongoose require ([818e789](https://github.com/YappyBots/YappyGitLab/commit/818e7890899af77bfb30fd27af542f5f690cae20))
+
+
+
 ## [1.8.2](https://github.com/YappyBots/YappyGitLab/compare/v1.8.1...v1.8.2) (2019-12-04)
 
 
