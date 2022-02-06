@@ -19,20 +19,20 @@
   "license": "MIT",
   "dependencies": {
     "@YappyBots/addons": "github:YappyBots/yappy-addons",
-    "body-parser": "^1.19.0",
-    "bookshelf": "^1.1.1",
+    "body-parser": "^1.19.1",
+    "bookshelf": "^1.2.0",
     "chalk": "^4.0.0",
     "clean-stack": "^2.2.0",
     "clean-stacktrace": "^1.1.0",
-    "cookie-parser": "^1.4.5",
+    "cookie-parser": "^1.4.6",
     "discord.js": "^12.1.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
     "got": "^10.7.0",
-    "hbs": "^4.1.1",
+    "hbs": "^4.2.0",
     "jsondiffpatch": "^0.4.1",
     "knex": "^0.20.13",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "node-fetch": "^2.6.0",
     "p-queue": "^6.3.0",
@@ -44,6 +44,6 @@
     "winston": "^2.4.4"
   },
   "devDependencies": {
-    "prettier": "^2.0.4"
+    "prettier": "^2.5.1"
   }
 }
