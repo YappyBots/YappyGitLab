@@ -32,7 +32,7 @@
     "got": "^10.7.0",
     "hbs": "^4.2.0",
     "jsondiffpatch": "^0.4.1",
-    "knex": "^0.20.13",
+    "knex": "^2.4.0",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "node-fetch": "^2.6.0",
