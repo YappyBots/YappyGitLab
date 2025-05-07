@@ -22,11 +22,13 @@
     "@YappyBots/addons": "github:YappyBots/yappy-addons#34404f8",
     "body-parser": "^1.19.1",
     "bookshelf": "^1.2.0",
+    "bufferutil": "^4.0.9",
     "chalk": "^4.0.0",
     "clean-stack": "^3.0.0",
     "cookie-parser": "^1.4.6",
     "discord.js": "^12.5.3",
     "dotenv": "^16.0.0",
+    "erlpack": "github:discordapp/erlpack",
     "express": "^4.17.2",
     "got": "^11.8.6",
     "hbs": "^4.2.0",
@@ -40,7 +42,9 @@
     "punycode": "^2.1.1",
     "snekfetch": "^4.0.4",
     "sqlite3": "^5.1.6",
-    "winston": "^2.4.4"
+    "utf-8-validate": "^5.0.10",
+    "winston": "^2.4.4",
+    "zlib-sync": "^0.1.10"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
