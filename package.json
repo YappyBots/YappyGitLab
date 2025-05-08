@@ -38,7 +38,6 @@
     "parse-github-url": "^1.0.2",
     "pretty-error": "^4.0.0",
     "punycode": "^2.1.1",
-    "snekfetch": "^4.0.4",
     "sqlite3": "^5.1.6",
     "winston": "^2.4.4",
     "zlib-sync": "^0.1.10"
