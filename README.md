@@ -13,7 +13,7 @@ Invite the bot at http://bit.ly/DiscordYappyGitlab
 ### Commands
 
 Mention the bot to use commands.
-Get more updated details of these commands at https://www.yappybots.tk/gitlab/commands.
+Get more updated details of these commands at https://yappy.dsev.dev/gitlab/commands.
 
 __**Util**__:
   - `help` - a help command... yeah :P
